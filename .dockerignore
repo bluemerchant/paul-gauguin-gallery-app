@@ -1,0 +1,8 @@
+.idea
+.git
+venv/
+data_scrapping/
+.gitignore
+README.md
+demo1.png
+demo2.png

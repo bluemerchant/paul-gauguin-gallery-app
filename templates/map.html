@@ -1,0 +1,3440 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_cf1ba609c01b94f477f0e8bdb9ec631d {
+                    position: relative;
+                    width: 1200.0px;
+                    height: 500.0px;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_cf1ba609c01b94f477f0e8bdb9ec631d" ></div>
+        
+</body>
+<script>    
+    
+            var map_cf1ba609c01b94f477f0e8bdb9ec631d = L.map(
+                "map_cf1ba609c01b94f477f0e8bdb9ec631d",
+                {
+                    center: [25.0, 100.0],
+                    crs: L.CRS.EPSG3857,
+                    maxBounds: [[-90, -180], [90, 180]],
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_cf1ba609c01b94f477f0e8bdb9ec631d);
+
+            
+
+        
+    
+            var tile_layer_ab3f60b9149ad130900d6617de5b022b = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 2, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_cf1ba609c01b94f477f0e8bdb9ec631d);
+        
+    
+            var feature_group_96ced4297df412c31166aba183edc9e2 = L.featureGroup(
+                {}
+            ).addTo(map_cf1ba609c01b94f477f0e8bdb9ec631d);
+        
+    
+            var marker_cb0ea47ae90c39e398f6e8bdc49a85f5 = L.marker(
+                [-34.5839152, -58.39291518623403],
+                {}
+            ).addTo(feature_group_96ced4297df412c31166aba183edc9e2);
+        
+    
+            var icon_c81c826bd58555536b5e6bfc66eedb54 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_cb0ea47ae90c39e398f6e8bdc49a85f5.setIcon(icon_c81c826bd58555536b5e6bfc66eedb54);
+        
+    
+        var popup_44c9d7ba8ab1cd94daa91daba73b5de7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bff87d12c6a99469618b785438a48089 = $(`<div id="html_bff87d12c6a99469618b785438a48089" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Museo Nacional de Bellas Artes (Buenos Aires).html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_44c9d7ba8ab1cd94daa91daba73b5de7.setContent(html_bff87d12c6a99469618b785438a48089);
+            
+        
+
+        marker_cb0ea47ae90c39e398f6e8bdc49a85f5.bindPopup(popup_44c9d7ba8ab1cd94daa91daba73b5de7)
+        ;
+
+        
+    
+    
+            var feature_group_24500de6e26a2c7b982ae4d6438bfa5c = L.featureGroup(
+                {}
+            ).addTo(map_cf1ba609c01b94f477f0e8bdb9ec631d);
+        
+    
+            var marker_d7e8064cc2248a12731b81f20df44e08 = L.marker(
+                [50.8416804, 4.3582377],
+                {}
+            ).addTo(feature_group_24500de6e26a2c7b982ae4d6438bfa5c);
+        
+    
+            var icon_376e1c6c8f6b944909e27bb0b7e5825a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d7e8064cc2248a12731b81f20df44e08.setIcon(icon_376e1c6c8f6b944909e27bb0b7e5825a);
+        
+    
+        var popup_3576815d19b44581da5540a6962fa967 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eaa07ee59ee7b8bfc5dca9e31af81fce = $(`<div id="html_eaa07ee59ee7b8bfc5dca9e31af81fce" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Royal Museums of Fine Arts of Belgium.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_3576815d19b44581da5540a6962fa967.setContent(html_eaa07ee59ee7b8bfc5dca9e31af81fce);
+            
+        
+
+        marker_d7e8064cc2248a12731b81f20df44e08.bindPopup(popup_3576815d19b44581da5540a6962fa967)
+        ;
+
+        
+    
+    
+            var marker_c20e7fee2702321ae4389649d007709f = L.marker(
+                [50.62746635, 5.577470691306695],
+                {}
+            ).addTo(feature_group_24500de6e26a2c7b982ae4d6438bfa5c);
+        
+    
+            var icon_4267738199e2e37bf3c61d4d1bb5bd4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c20e7fee2702321ae4389649d007709f.setIcon(icon_4267738199e2e37bf3c61d4d1bb5bd4f);
+        
+    
+        var popup_350625592ddfa6368ff8b808b7861555 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f819b50c3998596762da503cff77db3 = $(`<div id="html_2f819b50c3998596762da503cff77db3" style="width: 100.0%; height: 100.0%;">             <iframe src="static/La Boverie, Belgium.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_350625592ddfa6368ff8b808b7861555.setContent(html_2f819b50c3998596762da503cff77db3);
+            
+        
+
+        marker_c20e7fee2702321ae4389649d007709f.bindPopup(popup_350625592ddfa6368ff8b808b7861555)
+        ;
+
+        
+    
+    
+            var feature_group_c07688132b628b9490dc2fe1286df28c = L.featureGroup(
+                {}
+            ).addTo(map_cf1ba609c01b94f477f0e8bdb9ec631d);
+        
+    
+            var marker_ec0413003926acc2990b0681415cffcb = L.marker(
+                [-23.56150875, -46.65596048644724],
+                {}
+            ).addTo(feature_group_c07688132b628b9490dc2fe1286df28c);
+        
+    
+            var icon_c0a3a7b0041c77f8cea679eb3680947b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ec0413003926acc2990b0681415cffcb.setIcon(icon_c0a3a7b0041c77f8cea679eb3680947b);
+        
+    
+        var popup_86e0bc3c86e9d4a7b6be857bf1e50b08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ab034a0f47d6c7d6aedc3d71d4a6179 = $(`<div id="html_5ab034a0f47d6c7d6aedc3d71d4a6179" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Museu de Arte de São Paulo, Brazil.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_86e0bc3c86e9d4a7b6be857bf1e50b08.setContent(html_5ab034a0f47d6c7d6aedc3d71d4a6179);
+            
+        
+
+        marker_ec0413003926acc2990b0681415cffcb.bindPopup(popup_86e0bc3c86e9d4a7b6be857bf1e50b08)
+        ;
+
+        
+    
+    
+            var feature_group_dc95a2b1cc83ff818d641e82937db3d8 = L.featureGroup(
+                {}
+            ).addTo(map_cf1ba609c01b94f477f0e8bdb9ec631d);
+        
+    
+            var marker_6c75cba0bc7d5b9aa9ddaa37da701b8e = L.marker(
+                [45.42952630000001, -75.69881245158095],
+                {}
+            ).addTo(feature_group_dc95a2b1cc83ff818d641e82937db3d8);
+        
+    
+            var icon_dae309b8b1ae320c5b9d0b9a6a47e603 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_6c75cba0bc7d5b9aa9ddaa37da701b8e.setIcon(icon_dae309b8b1ae320c5b9d0b9a6a47e603);
+        
+    
+        var popup_9ce830663769858cdfdf52c9b7e2212b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1515c3df0314df189a871ca2645d500a = $(`<div id="html_1515c3df0314df189a871ca2645d500a" style="width: 100.0%; height: 100.0%;">             <iframe src="static/National Gallery of Canada, Ottawa.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_9ce830663769858cdfdf52c9b7e2212b.setContent(html_1515c3df0314df189a871ca2645d500a);
+            
+        
+
+        marker_6c75cba0bc7d5b9aa9ddaa37da701b8e.bindPopup(popup_9ce830663769858cdfdf52c9b7e2212b)
+        ;
+
+        
+    
+    
+            var feature_group_d4ea2a5a81fa0ce93b7c020c2f5ac947 = L.featureGroup(
+                {}
+            ).addTo(map_cf1ba609c01b94f477f0e8bdb9ec631d);
+        
+    
+            var marker_4bc553d8e5774ac528b8358d8fa6c7ce = L.marker(
+                [50.0902855, 14.3966952],
+                {}
+            ).addTo(feature_group_d4ea2a5a81fa0ce93b7c020c2f5ac947);
+        
+    
+            var icon_13d26d92b6dbd8c200e46e40df285245 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_4bc553d8e5774ac528b8358d8fa6c7ce.setIcon(icon_13d26d92b6dbd8c200e46e40df285245);
+        
+    
+        var popup_06a34201f6fe499484ab195d3433a856 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_048e42f4ee546e30736e4f6999e18b95 = $(`<div id="html_048e42f4ee546e30736e4f6999e18b95" style="width: 100.0%; height: 100.0%;">             <iframe src="static/National Gallery Prague.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_06a34201f6fe499484ab195d3433a856.setContent(html_048e42f4ee546e30736e4f6999e18b95);
+            
+        
+
+        marker_4bc553d8e5774ac528b8358d8fa6c7ce.bindPopup(popup_06a34201f6fe499484ab195d3433a856)
+        ;
+
+        
+    
+    
+            var feature_group_ea31bd7c190a0023c2d47b14958d4118 = L.featureGroup(
+                {}
+            ).addTo(map_cf1ba609c01b94f477f0e8bdb9ec631d);
+        
+    
+            var marker_959ed11c392d66e04dd2b6c7b1d3cbae = L.marker(
+                [55.6725342, 12.57176570891363],
+                {}
+            ).addTo(feature_group_ea31bd7c190a0023c2d47b14958d4118);
+        
+    
+            var icon_d93e556525310e761e0c623f0463bac6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_959ed11c392d66e04dd2b6c7b1d3cbae.setIcon(icon_d93e556525310e761e0c623f0463bac6);
+        
+    
+        var popup_bd2561b9fb9fcdd9cab27881e21e1f45 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95dd8853300c94526afa3113ad492713 = $(`<div id="html_95dd8853300c94526afa3113ad492713" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Ny Carlsberg Glyptotek.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_bd2561b9fb9fcdd9cab27881e21e1f45.setContent(html_95dd8853300c94526afa3113ad492713);
+            
+        
+
+        marker_959ed11c392d66e04dd2b6c7b1d3cbae.bindPopup(popup_bd2561b9fb9fcdd9cab27881e21e1f45)
+        ;
+
+        
+    
+    
+            var marker_2866e27ae9a3a81d3d23f06cdddb5c81 = L.marker(
+                [55.7671888, 12.5629601],
+                {}
+            ).addTo(feature_group_ea31bd7c190a0023c2d47b14958d4118);
+        
+    
+            var icon_d0bae33b1db6ab80ac53aa364cb72d93 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_2866e27ae9a3a81d3d23f06cdddb5c81.setIcon(icon_d0bae33b1db6ab80ac53aa364cb72d93);
+        
+    
+        var popup_f5bcf99c387a081f72c71dc2ad6baf90 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_daf1705e4b1b3bbac82b41b644ec5e8e = $(`<div id="html_daf1705e4b1b3bbac82b41b644ec5e8e" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Ordrupgaard, Denmark.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_f5bcf99c387a081f72c71dc2ad6baf90.setContent(html_daf1705e4b1b3bbac82b41b644ec5e8e);
+            
+        
+
+        marker_2866e27ae9a3a81d3d23f06cdddb5c81.bindPopup(popup_f5bcf99c387a081f72c71dc2ad6baf90)
+        ;
+
+        
+    
+    
+            var feature_group_80f276fcace30fccce3ace2b59db28a0 = L.featureGroup(
+                {}
+            ).addTo(map_cf1ba609c01b94f477f0e8bdb9ec631d);
+        
+    
+            var marker_6c8f61829c5690d4e0d0a5fbaceef71c = L.marker(
+                [30.1587591, 31.6286262],
+                {}
+            ).addTo(feature_group_80f276fcace30fccce3ace2b59db28a0);
+        
+    
+            var icon_02a3c5195e89d441a0ca473a03defee1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_6c8f61829c5690d4e0d0a5fbaceef71c.setIcon(icon_02a3c5195e89d441a0ca473a03defee1);
+        
+    
+        var popup_021a17dfa80e910a9b43dacf32faa559 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96b18282238516562db09c442acd8261 = $(`<div id="html_96b18282238516562db09c442acd8261" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Mohamed Mahmoud Khalil, Egypt.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_021a17dfa80e910a9b43dacf32faa559.setContent(html_96b18282238516562db09c442acd8261);
+            
+        
+
+        marker_6c8f61829c5690d4e0d0a5fbaceef71c.bindPopup(popup_021a17dfa80e910a9b43dacf32faa559)
+        ;
+
+        
+    
+    
+            var feature_group_6b90674d98140edae04a025fbdbef6ce = L.featureGroup(
+                {}
+            ).addTo(map_cf1ba609c01b94f477f0e8bdb9ec631d);
+        
+    
+            var marker_cf293b14eaa88475f8a5a64acea5da8b = L.marker(
+                [60.1718156, 24.93678],
+                {}
+            ).addTo(feature_group_6b90674d98140edae04a025fbdbef6ce);
+        
+    
+            var icon_e343b3a1ac04529e4e7dc69977f02ee1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_cf293b14eaa88475f8a5a64acea5da8b.setIcon(icon_e343b3a1ac04529e4e7dc69977f02ee1);
+        
+    
+        var popup_27a4700315f01941aca8c57d6db29b76 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7991e3e499ac03c68ff4a2aafa0c12b9 = $(`<div id="html_7991e3e499ac03c68ff4a2aafa0c12b9" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Finnish National Gallery.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_27a4700315f01941aca8c57d6db29b76.setContent(html_7991e3e499ac03c68ff4a2aafa0c12b9);
+            
+        
+
+        marker_cf293b14eaa88475f8a5a64acea5da8b.bindPopup(popup_27a4700315f01941aca8c57d6db29b76)
+        ;
+
+        
+    
+    
+            var marker_6594d88ffaead6ab5d21b2ddbd2ad47e = L.marker(
+                [60.17001745, 24.94406776239916],
+                {}
+            ).addTo(feature_group_6b90674d98140edae04a025fbdbef6ce);
+        
+    
+            var icon_d8db92e2d69bcaf72cc9b20a9ab2c425 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_6594d88ffaead6ab5d21b2ddbd2ad47e.setIcon(icon_d8db92e2d69bcaf72cc9b20a9ab2c425);
+        
+    
+        var popup_2a235ac73c768643e82a90482510c527 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_804dedb326443d515990ed85d389f1c3 = $(`<div id="html_804dedb326443d515990ed85d389f1c3" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Ateneum, Helsinki.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_2a235ac73c768643e82a90482510c527.setContent(html_804dedb326443d515990ed85d389f1c3);
+            
+        
+
+        marker_6594d88ffaead6ab5d21b2ddbd2ad47e.bindPopup(popup_2a235ac73c768643e82a90482510c527)
+        ;
+
+        
+    
+    
+            var feature_group_d367019c79717801ad782f500cdaecb5 = L.featureGroup(
+                {}
+            ).addTo(map_cf1ba609c01b94f477f0e8bdb9ec631d);
+        
+    
+            var marker_610e811d22b3b27c4215ec9b4703243f = L.marker(
+                [48.85991785, 2.326582834696561],
+                {}
+            ).addTo(feature_group_d367019c79717801ad782f500cdaecb5);
+        
+    
+            var icon_4dea6f8ccd74118fd8724c9aaab46f2e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_610e811d22b3b27c4215ec9b4703243f.setIcon(icon_4dea6f8ccd74118fd8724c9aaab46f2e);
+        
+    
+        var popup_bc946136084d92d94abd7ead4152298f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66b6a80e75c2987d49bfd33d11bda1cb = $(`<div id="html_66b6a80e75c2987d49bfd33d11bda1cb" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Musée d'Orsay, Paris.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_bc946136084d92d94abd7ead4152298f.setContent(html_66b6a80e75c2987d49bfd33d11bda1cb);
+            
+        
+
+        marker_610e811d22b3b27c4215ec9b4703243f.bindPopup(popup_bc946136084d92d94abd7ead4152298f)
+        ;
+
+        
+    
+    
+            var marker_1a8e6aa1ce47cf3b1b8d80e3e84ae701 = L.marker(
+                [48.1096227, -1.674941238636364],
+                {}
+            ).addTo(feature_group_d367019c79717801ad782f500cdaecb5);
+        
+    
+            var icon_f381c5636bf3a44d8baf2ff77f399a03 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1a8e6aa1ce47cf3b1b8d80e3e84ae701.setIcon(icon_f381c5636bf3a44d8baf2ff77f399a03);
+        
+    
+        var popup_03965cbb4851c212321382b9dd5ddd6c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_930774b02cac950009996c734f725a7c = $(`<div id="html_930774b02cac950009996c734f725a7c" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Rennes Art Museum.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_03965cbb4851c212321382b9dd5ddd6c.setContent(html_930774b02cac950009996c734f725a7c);
+            
+        
+
+        marker_1a8e6aa1ce47cf3b1b8d80e3e84ae701.bindPopup(popup_03965cbb4851c212321382b9dd5ddd6c)
+        ;
+
+        
+    
+    
+            var marker_bdd8f8ec8ecf04e9fbd22f86694b7f3a = L.marker(
+                [48.8660456, 2.3145051],
+                {}
+            ).addTo(feature_group_d367019c79717801ad782f500cdaecb5);
+        
+    
+            var icon_312c8c4e65c2d7c2c5f4cc81dd413309 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_bdd8f8ec8ecf04e9fbd22f86694b7f3a.setIcon(icon_312c8c4e65c2d7c2c5f4cc81dd413309);
+        
+    
+        var popup_6d7f51bcbe37282807589537d1a243f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f1384da500e60f0a615a2b15313bf30 = $(`<div id="html_0f1384da500e60f0a615a2b15313bf30" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Musée du Petit Palais.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_6d7f51bcbe37282807589537d1a243f3.setContent(html_0f1384da500e60f0a615a2b15313bf30);
+            
+        
+
+        marker_bdd8f8ec8ecf04e9fbd22f86694b7f3a.bindPopup(popup_6d7f51bcbe37282807589537d1a243f3)
+        ;
+
+        
+    
+    
+            var marker_90cf56438881da2bc242df1716cd1a05 = L.marker(
+                [48.99250105, 2.095730469913625],
+                {}
+            ).addTo(feature_group_d367019c79717801ad782f500cdaecb5);
+        
+    
+            var icon_53399f2f5f7c515877bef2fe97416b8d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_90cf56438881da2bc242df1716cd1a05.setIcon(icon_53399f2f5f7c515877bef2fe97416b8d);
+        
+    
+        var popup_ad74599223ee0c0c33bd4f6e30fb90f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1d3f38c521cf89c9a306940f10f29f1 = $(`<div id="html_e1d3f38c521cf89c9a306940f10f29f1" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Musée du Prieuré, Saint-Germain-en-Laye.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_ad74599223ee0c0c33bd4f6e30fb90f9.setContent(html_e1d3f38c521cf89c9a306940f10f29f1);
+            
+        
+
+        marker_90cf56438881da2bc242df1716cd1a05.bindPopup(popup_ad74599223ee0c0c33bd4f6e30fb90f9)
+        ;
+
+        
+    
+    
+            var marker_a0777c1516bcc180a736c1a6d26c5e14 = L.marker(
+                [48.5794799, 7.736099647631168],
+                {}
+            ).addTo(feature_group_d367019c79717801ad782f500cdaecb5);
+        
+    
+            var icon_60053365168d7fa13d5c650761ed957c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_a0777c1516bcc180a736c1a6d26c5e14.setIcon(icon_60053365168d7fa13d5c650761ed957c);
+        
+    
+        var popup_68a13f8e4b8e26a807a46bbda3cb88b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91dd9737c6a53a73a3ecc31efa1fb606 = $(`<div id="html_91dd9737c6a53a73a3ecc31efa1fb606" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Musée d'Art moderne et contemporain de Strasbourg.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_68a13f8e4b8e26a807a46bbda3cb88b7.setContent(html_91dd9737c6a53a73a3ecc31efa1fb606);
+            
+        
+
+        marker_a0777c1516bcc180a736c1a6d26c5e14.bindPopup(popup_68a13f8e4b8e26a807a46bbda3cb88b7)
+        ;
+
+        
+    
+    
+            var marker_3f06adc2fed8b385a259951e71574f28 = L.marker(
+                [45.0757435, 5.7735647],
+                {}
+            ).addTo(feature_group_d367019c79717801ad782f500cdaecb5);
+        
+    
+            var icon_9291600d5cefc6f4cfb447bf9e1a94c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3f06adc2fed8b385a259951e71574f28.setIcon(icon_9291600d5cefc6f4cfb447bf9e1a94c5);
+        
+    
+        var popup_cc6e94dc663ba7622ccd89172a2716dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea8e3f360c66f4e5cf4c1103e7fa7d83 = $(`<div id="html_ea8e3f360c66f4e5cf4c1103e7fa7d83" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Museum of Grenoble.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_cc6e94dc663ba7622ccd89172a2716dd.setContent(html_ea8e3f360c66f4e5cf4c1103e7fa7d83);
+            
+        
+
+        marker_3f06adc2fed8b385a259951e71574f28.bindPopup(popup_cc6e94dc663ba7622ccd89172a2716dd)
+        ;
+
+        
+    
+    
+            var marker_ca4db99391f74cc5db2e5e3d31dc7ed3 = L.marker(
+                [47.8550965, -3.746406090032833],
+                {}
+            ).addTo(feature_group_d367019c79717801ad782f500cdaecb5);
+        
+    
+            var icon_73586de986a6c730aa5b1a436361f9fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ca4db99391f74cc5db2e5e3d31dc7ed3.setIcon(icon_73586de986a6c730aa5b1a436361f9fa);
+        
+    
+        var popup_f15e62616e7cebd13a7ee3aa7445e568 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1aaa09f391459e5cdeebbfa7eac13a51 = $(`<div id="html_1aaa09f391459e5cdeebbfa7eac13a51" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Pont-Aven Museum.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_f15e62616e7cebd13a7ee3aa7445e568.setContent(html_1aaa09f391459e5cdeebbfa7eac13a51);
+            
+        
+
+        marker_ca4db99391f74cc5db2e5e3d31dc7ed3.bindPopup(popup_f15e62616e7cebd13a7ee3aa7445e568)
+        ;
+
+        
+    
+    
+            var marker_d30bb9494c5fd9cf673c45ede561bb1d = L.marker(
+                [47.90823315, 1.907894952581993],
+                {}
+            ).addTo(feature_group_d367019c79717801ad782f500cdaecb5);
+        
+    
+            var icon_31170450884276798cf3496aeac1d40e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d30bb9494c5fd9cf673c45ede561bb1d.setIcon(icon_31170450884276798cf3496aeac1d40e);
+        
+    
+        var popup_fab7246fad634518c2867bc4d673dd68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a7e7e57c7cd776d04b2f421d32333f4 = $(`<div id="html_1a7e7e57c7cd776d04b2f421d32333f4" style="width: 100.0%; height: 100.0%;">             <iframe src="static/d'Orléans Museum.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_fab7246fad634518c2867bc4d673dd68.setContent(html_1a7e7e57c7cd776d04b2f421d32333f4);
+            
+        
+
+        marker_d30bb9494c5fd9cf673c45ede561bb1d.bindPopup(popup_fab7246fad634518c2867bc4d673dd68)
+        ;
+
+        
+    
+    
+            var marker_c519dbac647d8c35af8c4f790de47a25 = L.marker(
+                [47.9872305, -4.474102510287082],
+                {}
+            ).addTo(feature_group_d367019c79717801ad782f500cdaecb5);
+        
+    
+            var icon_abc8079d670ca4c49c5dd228ab7822b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c519dbac647d8c35af8c4f790de47a25.setIcon(icon_abc8079d670ca4c49c5dd228ab7822b7);
+        
+    
+        var popup_0eb6320031cd3f634a88ba5ebd3d80f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a568c28cbc032856892cf1450171383 = $(`<div id="html_8a568c28cbc032856892cf1450171383" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Quimper Arts Museum.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_0eb6320031cd3f634a88ba5ebd3d80f4.setContent(html_8a568c28cbc032856892cf1450171383);
+            
+        
+
+        marker_c519dbac647d8c35af8c4f790de47a25.bindPopup(popup_0eb6320031cd3f634a88ba5ebd3d80f4)
+        ;
+
+        
+    
+    
+            var marker_df2a9188db4cc04e6491b5412eae4427 = L.marker(
+                [48.29995, 4.082291342005172],
+                {}
+            ).addTo(feature_group_d367019c79717801ad782f500cdaecb5);
+        
+    
+            var icon_70aca326ddd18f520c6bcbb18bc7aa1c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_df2a9188db4cc04e6491b5412eae4427.setIcon(icon_70aca326ddd18f520c6bcbb18bc7aa1c);
+        
+    
+        var popup_5c629710dbad157001761bcb6440cd19 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80712e86fd9911b2aca9a13ad30ce2d9 = $(`<div id="html_80712e86fd9911b2aca9a13ad30ce2d9" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Musée d'art moderne de Troyes, France.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_5c629710dbad157001761bcb6440cd19.setContent(html_80712e86fd9911b2aca9a13ad30ce2d9);
+            
+        
+
+        marker_df2a9188db4cc04e6491b5412eae4427.bindPopup(popup_5c629710dbad157001761bcb6440cd19)
+        ;
+
+        
+    
+    
+            var marker_294527f19b4d415f59b20ada8e6004c8 = L.marker(
+                [49.48501735, 0.1026566664390161],
+                {}
+            ).addTo(feature_group_d367019c79717801ad782f500cdaecb5);
+        
+    
+            var icon_01dd253f728f9aff68ea226ff458cd01 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_294527f19b4d415f59b20ada8e6004c8.setIcon(icon_01dd253f728f9aff68ea226ff458cd01);
+        
+    
+        var popup_fe11cba2cbe3f2d0a118477e937d64da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d3f9e5a8823b4fb73dce9656b3d8168a = $(`<div id="html_d3f9e5a8823b4fb73dce9656b3d8168a" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Musée Malraux.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_fe11cba2cbe3f2d0a118477e937d64da.setContent(html_d3f9e5a8823b4fb73dce9656b3d8168a);
+            
+        
+
+        marker_294527f19b4d415f59b20ada8e6004c8.bindPopup(popup_fe11cba2cbe3f2d0a118477e937d64da)
+        ;
+
+        
+    
+    
+            var marker_5450c77e429882273db8618cae4f806f = L.marker(
+                [45.76670470000001, 4.833645109701492],
+                {}
+            ).addTo(feature_group_d367019c79717801ad782f500cdaecb5);
+        
+    
+            var icon_d19ef905baf69421907d0d7296f8af6e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5450c77e429882273db8618cae4f806f.setIcon(icon_d19ef905baf69421907d0d7296f8af6e);
+        
+    
+        var popup_c13289580522992b04306357eb09c718 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9200a0005d269e2eb3f847261fb171c0 = $(`<div id="html_9200a0005d269e2eb3f847261fb171c0" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Musée des Beaux-Arts de Lyon, France.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_c13289580522992b04306357eb09c718.setContent(html_9200a0005d269e2eb3f847261fb171c0);
+            
+        
+
+        marker_5450c77e429882273db8618cae4f806f.bindPopup(popup_c13289580522992b04306357eb09c718)
+        ;
+
+        
+    
+    
+            var marker_530166919c91abffb3d7d3b17c50802e = L.marker(
+                [48.8637655, 2.322660207806927],
+                {}
+            ).addTo(feature_group_d367019c79717801ad782f500cdaecb5);
+        
+    
+            var icon_b8790b3c6e7d9e6fb72a041ef35c2b92 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_530166919c91abffb3d7d3b17c50802e.setIcon(icon_b8790b3c6e7d9e6fb72a041ef35c2b92);
+        
+    
+        var popup_33e31bb604fc73d9c9c70141d892fff5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ad0eb8176ba83707c19ce26ec849f22 = $(`<div id="html_4ad0eb8176ba83707c19ce26ec849f22" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Musée de l'Orangerie, Paris.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_33e31bb604fc73d9c9c70141d892fff5.setContent(html_4ad0eb8176ba83707c19ce26ec849f22);
+            
+        
+
+        marker_530166919c91abffb3d7d3b17c50802e.bindPopup(popup_33e31bb604fc73d9c9c70141d892fff5)
+        ;
+
+        
+    
+    
+            var feature_group_5ca22be44c5ea09aa8c952919cd9b55f = L.featureGroup(
+                {}
+            ).addTo(map_cf1ba609c01b94f477f0e8bdb9ec631d);
+        
+    
+            var marker_0634cebecc132e19e45a6a5e782ac892 = L.marker(
+                [50.93741045, 6.958443355836139],
+                {}
+            ).addTo(feature_group_5ca22be44c5ea09aa8c952919cd9b55f);
+        
+    
+            var icon_5a814e45e8ccd7844b719f6c71ff1bc8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_0634cebecc132e19e45a6a5e782ac892.setIcon(icon_5a814e45e8ccd7844b719f6c71ff1bc8);
+        
+    
+        var popup_3b9ec0638b4f9505daae338302fea408 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9f94196d491a83d4198605dac8c3eca = $(`<div id="html_f9f94196d491a83d4198605dac8c3eca" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Wallraf–Richartz Museum, Cologne.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_3b9ec0638b4f9505daae338302fea408.setContent(html_f9f94196d491a83d4198605dac8c3eca);
+            
+        
+
+        marker_0634cebecc132e19e45a6a5e782ac892.bindPopup(popup_3b9ec0638b4f9505daae338302fea408)
+        ;
+
+        
+    
+    
+            var marker_36f0b838848d75ec62adbbc017fb6775 = L.marker(
+                [48.1499278, 11.57093744588306],
+                {}
+            ).addTo(feature_group_5ca22be44c5ea09aa8c952919cd9b55f);
+        
+    
+            var icon_97c8e69ec3fb0dd91cdc80e4f5d07b62 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_36f0b838848d75ec62adbbc017fb6775.setIcon(icon_97c8e69ec3fb0dd91cdc80e4f5d07b62);
+        
+    
+        var popup_039c35af8110a62bba328e1798a5a82d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ae0fbd75dba6c05e7d6b861511401a0 = $(`<div id="html_2ae0fbd75dba6c05e7d6b861511401a0" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Neue Pinakothek, Munich.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_039c35af8110a62bba328e1798a5a82d.setContent(html_2ae0fbd75dba6c05e7d6b861511401a0);
+            
+        
+
+        marker_36f0b838848d75ec62adbbc017fb6775.bindPopup(popup_039c35af8110a62bba328e1798a5a82d)
+        ;
+
+        
+    
+    
+            var marker_3eb7b52c8f2e4d89ad693cd721cff7f1 = L.marker(
+                [53.5548699, 10.0018358],
+                {}
+            ).addTo(feature_group_5ca22be44c5ea09aa8c952919cd9b55f);
+        
+    
+            var icon_7d0b78346a6bd22cd34326a57cca1875 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3eb7b52c8f2e4d89ad693cd721cff7f1.setIcon(icon_7d0b78346a6bd22cd34326a57cca1875);
+        
+    
+        var popup_41122f62ccafd252353d4e1ea6c7afa3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e62acb96b7f4fcb2504f43364df2895 = $(`<div id="html_7e62acb96b7f4fcb2504f43364df2895" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Kunsthalle, Hamburg.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_41122f62ccafd252353d4e1ea6c7afa3.setContent(html_7e62acb96b7f4fcb2504f43364df2895);
+            
+        
+
+        marker_3eb7b52c8f2e4d89ad693cd721cff7f1.bindPopup(popup_41122f62ccafd252353d4e1ea6c7afa3)
+        ;
+
+        
+    
+    
+            var marker_70f7fd4f7857b0044db98c5a461b3e78 = L.marker(
+                [51.4425294, 7.0047432],
+                {}
+            ).addTo(feature_group_5ca22be44c5ea09aa8c952919cd9b55f);
+        
+    
+            var icon_ae59109b8a42ce071333918dca074291 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_70f7fd4f7857b0044db98c5a461b3e78.setIcon(icon_ae59109b8a42ce071333918dca074291);
+        
+    
+        var popup_4b5ffd89a0a58a6c9afccb7e821545e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a615f4b1f0849922c893ba997762490a = $(`<div id="html_a615f4b1f0849922c893ba997762490a" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Museum Folkwang, Essen.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_4b5ffd89a0a58a6c9afccb7e821545e0.setContent(html_a615f4b1f0849922c893ba997762490a);
+            
+        
+
+        marker_70f7fd4f7857b0044db98c5a461b3e78.bindPopup(popup_4b5ffd89a0a58a6c9afccb7e821545e0)
+        ;
+
+        
+    
+    
+            var marker_1247bd168b2c2f18d9e7a1bb11e738f1 = L.marker(
+                [48.78021455, 9.187105267010025],
+                {}
+            ).addTo(feature_group_5ca22be44c5ea09aa8c952919cd9b55f);
+        
+    
+            var icon_8a53d04cad5fc3d8b79420200065e5df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1247bd168b2c2f18d9e7a1bb11e738f1.setIcon(icon_8a53d04cad5fc3d8b79420200065e5df);
+        
+    
+        var popup_02be917d324a1e2a2f5964e1e92e1a5a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd6005efbc6ae016b84fc9f2335b1463 = $(`<div id="html_bd6005efbc6ae016b84fc9f2335b1463" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Staatsgalerie Stuttgart.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_02be917d324a1e2a2f5964e1e92e1a5a.setContent(html_bd6005efbc6ae016b84fc9f2335b1463);
+            
+        
+
+        marker_1247bd168b2c2f18d9e7a1bb11e738f1.bindPopup(popup_02be917d324a1e2a2f5964e1e92e1a5a)
+        ;
+
+        
+    
+    
+            var marker_4e4715031963975954b394d7944b0db4 = L.marker(
+                [49.0119366, 8.399711538337955],
+                {}
+            ).addTo(feature_group_5ca22be44c5ea09aa8c952919cd9b55f);
+        
+    
+            var icon_348c7b93b885c3eb8cffb1eb0de11d60 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_4e4715031963975954b394d7944b0db4.setIcon(icon_348c7b93b885c3eb8cffb1eb0de11d60);
+        
+    
+        var popup_a372dcf1263f1d385131c38e377548da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_125ec101fb52c3a40c3f50696b705b14 = $(`<div id="html_125ec101fb52c3a40c3f50696b705b14" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Staatliche Kunsthalle Karlsruhe, Germany.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_a372dcf1263f1d385131c38e377548da.setContent(html_125ec101fb52c3a40c3f50696b705b14);
+            
+        
+
+        marker_4e4715031963975954b394d7944b0db4.bindPopup(popup_a372dcf1263f1d385131c38e377548da)
+        ;
+
+        
+    
+    
+            var marker_27c26b37f7350ad52540b9eb792ddbd8 = L.marker(
+                [52.520862, 13.39826612490101],
+                {}
+            ).addTo(feature_group_5ca22be44c5ea09aa8c952919cd9b55f);
+        
+    
+            var icon_9a8b57ebd34fd9bcfd058bd58e4f0a39 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_27c26b37f7350ad52540b9eb792ddbd8.setIcon(icon_9a8b57ebd34fd9bcfd058bd58e4f0a39);
+        
+    
+        var popup_4abb8f86d7eb25ef74ef6e113c047ec9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b34e91c464e83f8941c264e83f4a9d6b = $(`<div id="html_b34e91c464e83f8941c264e83f4a9d6b" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Alte Nationalgalerie, Berlin.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_4abb8f86d7eb25ef74ef6e113c047ec9.setContent(html_b34e91c464e83f8941c264e83f4a9d6b);
+            
+        
+
+        marker_27c26b37f7350ad52540b9eb792ddbd8.bindPopup(popup_4abb8f86d7eb25ef74ef6e113c047ec9)
+        ;
+
+        
+    
+    
+            var marker_64b50b8f42f090729a9dbd40c4063dc6 = L.marker(
+                [51.0522719, 13.7444453],
+                {}
+            ).addTo(feature_group_5ca22be44c5ea09aa8c952919cd9b55f);
+        
+    
+            var icon_472447ee880a977643c01d4bfdd4c766 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_64b50b8f42f090729a9dbd40c4063dc6.setIcon(icon_472447ee880a977643c01d4bfdd4c766);
+        
+    
+        var popup_942587af946fed2577bf0f8e231ded9d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4292a226d92096fb91acd3bdc1aeae3c = $(`<div id="html_4292a226d92096fb91acd3bdc1aeae3c" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Galerie Neue Meister, Dresden.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_942587af946fed2577bf0f8e231ded9d.setContent(html_4292a226d92096fb91acd3bdc1aeae3c);
+            
+        
+
+        marker_64b50b8f42f090729a9dbd40c4063dc6.bindPopup(popup_942587af946fed2577bf0f8e231ded9d)
+        ;
+
+        
+    
+    
+            var marker_dc8a50fb6aade5862b11b07d0770b05c = L.marker(
+                [51.25743725, 7.14663885257788],
+                {}
+            ).addTo(feature_group_5ca22be44c5ea09aa8c952919cd9b55f);
+        
+    
+            var icon_ca0864558e63b45b9822a31b2b4fc2e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_dc8a50fb6aade5862b11b07d0770b05c.setIcon(icon_ca0864558e63b45b9822a31b2b4fc2e4);
+        
+    
+        var popup_8d6db39830a12d471f031dd5f8c7e57d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d05857a116aacf3987a60233fd762fde = $(`<div id="html_d05857a116aacf3987a60233fd762fde" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Von der Heydt Museum, Wuppertal, Germany.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_8d6db39830a12d471f031dd5f8c7e57d.setContent(html_d05857a116aacf3987a60233fd762fde);
+            
+        
+
+        marker_dc8a50fb6aade5862b11b07d0770b05c.bindPopup(popup_8d6db39830a12d471f031dd5f8c7e57d)
+        ;
+
+        
+    
+    
+            var feature_group_24a217498a49ee248e2f9e611f0b7896 = L.featureGroup(
+                {}
+            ).addTo(map_cf1ba609c01b94f477f0e8bdb9ec631d);
+        
+    
+            var marker_41e07b85cad3642f361ecf857464cc25 = L.marker(
+                [37.96974535, 23.74268952271161],
+                {}
+            ).addTo(feature_group_24a217498a49ee248e2f9e611f0b7896);
+        
+    
+            var icon_92950d72a804570dd8505dfa89703cb7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_41e07b85cad3642f361ecf857464cc25.setIcon(icon_92950d72a804570dd8505dfa89703cb7);
+        
+    
+        var popup_b29822d869b5be857d999291dbcd4b50 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d752d61ce1b5a3e9f4c731dc11219b43 = $(`<div id="html_d752d61ce1b5a3e9f4c731dc11219b43" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Basil & Elise Goulandris Foundation, Athens.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_b29822d869b5be857d999291dbcd4b50.setContent(html_d752d61ce1b5a3e9f4c731dc11219b43);
+            
+        
+
+        marker_41e07b85cad3642f361ecf857464cc25.bindPopup(popup_b29822d869b5be857d999291dbcd4b50)
+        ;
+
+        
+    
+    
+            var feature_group_09a9d4b8e50a480af8fc4d75a16c2f07 = L.featureGroup(
+                {}
+            ).addTo(map_cf1ba609c01b94f477f0e8bdb9ec631d);
+        
+    
+            var marker_28388553687c9b5ecac03c2975b917aa = L.marker(
+                [47.51622125, 19.07636619700188],
+                {}
+            ).addTo(feature_group_09a9d4b8e50a480af8fc4d75a16c2f07);
+        
+    
+            var icon_02ed25da4f62f43c8241baf763638111 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_28388553687c9b5ecac03c2975b917aa.setIcon(icon_02ed25da4f62f43c8241baf763638111);
+        
+    
+        var popup_08240dc757f95366a82e1ef63a69d5e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5cdbe36527bb0b2989ce844fb86c5d15 = $(`<div id="html_5cdbe36527bb0b2989ce844fb86c5d15" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Szépművészeti Múzeum, Budapest.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_08240dc757f95366a82e1ef63a69d5e3.setContent(html_5cdbe36527bb0b2989ce844fb86c5d15);
+            
+        
+
+        marker_28388553687c9b5ecac03c2975b917aa.bindPopup(popup_08240dc757f95366a82e1ef63a69d5e3)
+        ;
+
+        
+    
+    
+            var feature_group_372b8881423c22c5dffafb6ae202d51f = L.featureGroup(
+                {}
+            ).addTo(map_cf1ba609c01b94f477f0e8bdb9ec631d);
+        
+    
+            var marker_63f800cdaa01d326a6d3bd60656da44d = L.marker(
+                [35.71146465, 51.39042603400717],
+                {}
+            ).addTo(feature_group_372b8881423c22c5dffafb6ae202d51f);
+        
+    
+            var icon_e428a1ff7a68782f6872bb91ecd331d5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_63f800cdaa01d326a6d3bd60656da44d.setIcon(icon_e428a1ff7a68782f6872bb91ecd331d5);
+        
+    
+        var popup_336b053ad2e02ec8c2e16baca31d0a9c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19aa8cfd6850a6821980bd241797f008 = $(`<div id="html_19aa8cfd6850a6821980bd241797f008" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Tehran Museum, Laleh Park.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_336b053ad2e02ec8c2e16baca31d0a9c.setContent(html_19aa8cfd6850a6821980bd241797f008);
+            
+        
+
+        marker_63f800cdaa01d326a6d3bd60656da44d.bindPopup(popup_336b053ad2e02ec8c2e16baca31d0a9c)
+        ;
+
+        
+    
+    
+            var feature_group_9c59e90b014601de5e989aaf8a901604 = L.featureGroup(
+                {}
+            ).addTo(map_cf1ba609c01b94f477f0e8bdb9ec631d);
+        
+    
+            var marker_501516c8b2cdb1d5ad230aa0589da8d8 = L.marker(
+                [31.77188795, 35.20338670700488],
+                {}
+            ).addTo(feature_group_9c59e90b014601de5e989aaf8a901604);
+        
+    
+            var icon_abd7c39503870c6e8c0ef83363317bf0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_501516c8b2cdb1d5ad230aa0589da8d8.setIcon(icon_abd7c39503870c6e8c0ef83363317bf0);
+        
+    
+        var popup_a04d879e36d0b892b61aa29f424d9b88 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4f3a4ca12e3a49415464f5e486fdca7 = $(`<div id="html_f4f3a4ca12e3a49415464f5e486fdca7" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Israel Museum, Jerusalem.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_a04d879e36d0b892b61aa29f424d9b88.setContent(html_f4f3a4ca12e3a49415464f5e486fdca7);
+            
+        
+
+        marker_501516c8b2cdb1d5ad230aa0589da8d8.bindPopup(popup_a04d879e36d0b892b61aa29f424d9b88)
+        ;
+
+        
+    
+    
+            var feature_group_755cbb72f489ed81aa517db5405f021d = L.featureGroup(
+                {}
+            ).addTo(map_cf1ba609c01b94f477f0e8bdb9ec631d);
+        
+    
+            var marker_0da009968d846cd1695cc293965e7ec7 = L.marker(
+                [45.4725327, 9.199676],
+                {}
+            ).addTo(feature_group_755cbb72f489ed81aa517db5405f021d);
+        
+    
+            var icon_6de7bfd87e0965afd9d60c1454becb28 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_0da009968d846cd1695cc293965e7ec7.setIcon(icon_6de7bfd87e0965afd9d60c1454becb28);
+        
+    
+        var popup_92b47fa07181d3b9bee1b9296b5ee776 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a43b6a0363f427de32960135b4531c4 = $(`<div id="html_9a43b6a0363f427de32960135b4531c4" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Galleria d'Arte Moderna, Milan.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_92b47fa07181d3b9bee1b9296b5ee776.setContent(html_9a43b6a0363f427de32960135b4531c4);
+            
+        
+
+        marker_0da009968d846cd1695cc293965e7ec7.bindPopup(popup_92b47fa07181d3b9bee1b9296b5ee776)
+        ;
+
+        
+    
+    
+            var feature_group_44fefb03ae01323a6366ccca1d7e3ecf = L.featureGroup(
+                {}
+            ).addTo(map_cf1ba609c01b94f477f0e8bdb9ec631d);
+        
+    
+            var marker_2a40fcff04d4ca68c3c1f086056ddcee = L.marker(
+                [35.7153764, 139.7758555],
+                {}
+            ).addTo(feature_group_44fefb03ae01323a6366ccca1d7e3ecf);
+        
+    
+            var icon_deaee15e9ba731a69d41b70f7d53d1dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_2a40fcff04d4ca68c3c1f086056ddcee.setIcon(icon_deaee15e9ba731a69d41b70f7d53d1dd);
+        
+    
+        var popup_6fbddf148fe5d269e8f89ef70cfcf471 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7e547088cd43d816ddd31c20e81feca = $(`<div id="html_f7e547088cd43d816ddd31c20e81feca" style="width: 100.0%; height: 100.0%;">             <iframe src="static/National Museum of Western Art, Tokyo.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_6fbddf148fe5d269e8f89ef70cfcf471.setContent(html_f7e547088cd43d816ddd31c20e81feca);
+            
+        
+
+        marker_2a40fcff04d4ca68c3c1f086056ddcee.bindPopup(popup_6fbddf148fe5d269e8f89ef70cfcf471)
+        ;
+
+        
+    
+    
+            var marker_a69d05bf383ec3812b18a0972cca6c32 = L.marker(
+                [35.678749, 139.7721285],
+                {}
+            ).addTo(feature_group_44fefb03ae01323a6366ccca1d7e3ecf);
+        
+    
+            var icon_d490b9dfb3f7bf9ebcf5348518a90b18 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_a69d05bf383ec3812b18a0972cca6c32.setIcon(icon_d490b9dfb3f7bf9ebcf5348518a90b18);
+        
+    
+        var popup_7841d99a83b1e09df09cf70f372f129d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_224c496de1ef8145645299a13d955c99 = $(`<div id="html_224c496de1ef8145645299a13d955c99" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Artizon Museum, Tokyo.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_7841d99a83b1e09df09cf70f372f129d.setContent(html_224c496de1ef8145645299a13d955c99);
+            
+        
+
+        marker_a69d05bf383ec3812b18a0972cca6c32.bindPopup(popup_7841d99a83b1e09df09cf70f372f129d)
+        ;
+
+        
+    
+    
+            var marker_57453fc83e7e688f491d8fb5efed588a = L.marker(
+                [35.2567044, 139.021224648046],
+                {}
+            ).addTo(feature_group_44fefb03ae01323a6366ccca1d7e3ecf);
+        
+    
+            var icon_aa383276659adca145991537f7600a51 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_57453fc83e7e688f491d8fb5efed588a.setIcon(icon_aa383276659adca145991537f7600a51);
+        
+    
+        var popup_8e7f2670dc1582f274a1385dc6a2dfcf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_156df7c6a3029741e98a78d12902ec6c = $(`<div id="html_156df7c6a3029741e98a78d12902ec6c" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Pola Museum of Art, Kanagawa, Japan.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_8e7f2670dc1582f274a1385dc6a2dfcf.setContent(html_156df7c6a3029741e98a78d12902ec6c);
+            
+        
+
+        marker_57453fc83e7e688f491d8fb5efed588a.bindPopup(popup_8e7f2670dc1582f274a1385dc6a2dfcf)
+        ;
+
+        
+    
+    
+            var marker_a1885e0fe3db7b6682b7e65f45561419 = L.marker(
+                [34.3986418, 132.458099202049],
+                {}
+            ).addTo(feature_group_44fefb03ae01323a6366ccca1d7e3ecf);
+        
+    
+            var icon_1263861df24fe04b639c31ae85af4696 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_a1885e0fe3db7b6682b7e65f45561419.setIcon(icon_1263861df24fe04b639c31ae85af4696);
+        
+    
+        var popup_ce0c99b86a1f37afcce98b02a657831a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da60983e01422ef45110789a4354d537 = $(`<div id="html_da60983e01422ef45110789a4354d537" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Hiroshima Museum of Art.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_ce0c99b86a1f37afcce98b02a657831a.setContent(html_da60983e01422ef45110789a4354d537);
+            
+        
+
+        marker_a1885e0fe3db7b6682b7e65f45561419.bindPopup(popup_ce0c99b86a1f37afcce98b02a657831a)
+        ;
+
+        
+    
+    
+            var marker_d98d1e485c8a0ba14ea0809b40e5086b = L.marker(
+                [35.6925857, 139.696541191182],
+                {}
+            ).addTo(feature_group_44fefb03ae01323a6366ccca1d7e3ecf);
+        
+    
+            var icon_296c2007812fee1c834a8a7c62cc9cf8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d98d1e485c8a0ba14ea0809b40e5086b.setIcon(icon_296c2007812fee1c834a8a7c62cc9cf8);
+        
+    
+        var popup_0a3c9119cbeec1606c3dd5335e13cff0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8961bec3474cac44a8638fc7cafecca9 = $(`<div id="html_8961bec3474cac44a8638fc7cafecca9" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Seiji Togo Museum of Art, Tokyo.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_0a3c9119cbeec1606c3dd5335e13cff0.setContent(html_8961bec3474cac44a8638fc7cafecca9);
+            
+        
+
+        marker_d98d1e485c8a0ba14ea0809b40e5086b.bindPopup(popup_0a3c9119cbeec1606c3dd5335e13cff0)
+        ;
+
+        
+    
+    
+            var marker_1631c0137214eb567ed38bad77c33d2c = L.marker(
+                [37.7683024, 140.4565128162612],
+                {}
+            ).addTo(feature_group_44fefb03ae01323a6366ccca1d7e3ecf);
+        
+    
+            var icon_6cce1f7abe28facf601d756aa45b680a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1631c0137214eb567ed38bad77c33d2c.setIcon(icon_6cce1f7abe28facf601d756aa45b680a);
+        
+    
+        var popup_18f45e9b0e3c32e8f2bf87a9775c373c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4675fd62a24b9eb1783f6e1136fc58a1 = $(`<div id="html_4675fd62a24b9eb1783f6e1136fc58a1" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Fukushima Prefectural Museum.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_18f45e9b0e3c32e8f2bf87a9775c373c.setContent(html_4675fd62a24b9eb1783f6e1136fc58a1);
+            
+        
+
+        marker_1631c0137214eb567ed38bad77c33d2c.bindPopup(popup_18f45e9b0e3c32e8f2bf87a9775c373c)
+        ;
+
+        
+    
+    
+            var marker_ad79a67edd4ca977117f65036fcbdf84 = L.marker(
+                [34.59593315, 133.7703521512656],
+                {}
+            ).addTo(feature_group_44fefb03ae01323a6366ccca1d7e3ecf);
+        
+    
+            var icon_7e3ef761f16a34a73f82aa0d7e4d7dce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ad79a67edd4ca977117f65036fcbdf84.setIcon(icon_7e3ef761f16a34a73f82aa0d7e4d7dce);
+        
+    
+        var popup_d9cd0c4902cfe691a6b22482550937b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_97e838c5776d300ee63c66032a563b53 = $(`<div id="html_97e838c5776d300ee63c66032a563b53" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Ohara Museum of Art, Kurashiki.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_d9cd0c4902cfe691a6b22482550937b6.setContent(html_97e838c5776d300ee63c66032a563b53);
+            
+        
+
+        marker_ad79a67edd4ca977117f65036fcbdf84.bindPopup(popup_d9cd0c4902cfe691a6b22482550937b6)
+        ;
+
+        
+    
+    
+            var feature_group_ffb1bc2d476c5f109e77487a7ff36900 = L.featureGroup(
+                {}
+            ).addTo(map_cf1ba609c01b94f477f0e8bdb9ec631d);
+        
+    
+            var marker_36f87426aeef8ba9b827326d23797cf5 = L.marker(
+                [53.2122819, 6.566029044267069],
+                {}
+            ).addTo(feature_group_ffb1bc2d476c5f109e77487a7ff36900);
+        
+    
+            var icon_393f721d2d26596468af4367c0f44098 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_36f87426aeef8ba9b827326d23797cf5.setIcon(icon_393f721d2d26596468af4367c0f44098);
+        
+    
+        var popup_54cef27116a06721d6d89e7a9b310603 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a602dafa979d55d9f015a0fdb39ccb7 = $(`<div id="html_2a602dafa979d55d9f015a0fdb39ccb7" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Groninger Museum, Netherlands.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_54cef27116a06721d6d89e7a9b310603.setContent(html_2a602dafa979d55d9f015a0fdb39ccb7);
+            
+        
+
+        marker_36f87426aeef8ba9b827326d23797cf5.bindPopup(popup_54cef27116a06721d6d89e7a9b310603)
+        ;
+
+        
+    
+    
+            var marker_ba4c83a6035f43c9e09ceeaaac15e616 = L.marker(
+                [52.09591345, 5.817829842933769],
+                {}
+            ).addTo(feature_group_ffb1bc2d476c5f109e77487a7ff36900);
+        
+    
+            var icon_cf24a121aad8a8d752c919951b45c1ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ba4c83a6035f43c9e09ceeaaac15e616.setIcon(icon_cf24a121aad8a8d752c919951b45c1ad);
+        
+    
+        var popup_86deff76ad1ce0351e5d1f881026b10a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e001389a5654fc5c79337c5192c4be5 = $(`<div id="html_0e001389a5654fc5c79337c5192c4be5" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Kröller-Müller Museum, Otterlo, Netherlands.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_86deff76ad1ce0351e5d1f881026b10a.setContent(html_0e001389a5654fc5c79337c5192c4be5);
+            
+        
+
+        marker_ba4c83a6035f43c9e09ceeaaac15e616.bindPopup(popup_86deff76ad1ce0351e5d1f881026b10a)
+        ;
+
+        
+    
+    
+            var marker_c2a74b35afde641b6733dd289bd4fb9c = L.marker(
+                [51.9140053, 4.47333364903821],
+                {}
+            ).addTo(feature_group_ffb1bc2d476c5f109e77487a7ff36900);
+        
+    
+            var icon_170653fa3e2fe9d3df680dc840e39d94 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c2a74b35afde641b6733dd289bd4fb9c.setIcon(icon_170653fa3e2fe9d3df680dc840e39d94);
+        
+    
+        var popup_de1226dc010b1f179e5008fbaaae41b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d00f2faed50e4c03840ece9fabddfbb = $(`<div id="html_4d00f2faed50e4c03840ece9fabddfbb" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Museum Boijmans Van Beuningen, Rotterdam.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_de1226dc010b1f179e5008fbaaae41b3.setContent(html_4d00f2faed50e4c03840ece9fabddfbb);
+            
+        
+
+        marker_c2a74b35afde641b6733dd289bd4fb9c.bindPopup(popup_de1226dc010b1f179e5008fbaaae41b3)
+        ;
+
+        
+    
+    
+            var marker_172f354b1498d771e29507cbdb012b32 = L.marker(
+                [52.35836725, 4.88108997215221],
+                {}
+            ).addTo(feature_group_ffb1bc2d476c5f109e77487a7ff36900);
+        
+    
+            var icon_c157de78af9b7377b9317c994e6ce7e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_172f354b1498d771e29507cbdb012b32.setIcon(icon_c157de78af9b7377b9317c994e6ce7e7);
+        
+    
+        var popup_05c2ec2c7de3e821a7d25c36abe076ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d4bc13863a2037f4a6616b9abf9cdce = $(`<div id="html_7d4bc13863a2037f4a6616b9abf9cdce" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Van Gogh Museum, Amsterdam.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_05c2ec2c7de3e821a7d25c36abe076ec.setContent(html_7d4bc13863a2037f4a6616b9abf9cdce);
+            
+        
+
+        marker_172f354b1498d771e29507cbdb012b32.bindPopup(popup_05c2ec2c7de3e821a7d25c36abe076ec)
+        ;
+
+        
+    
+    
+            var feature_group_701bd985788da3d02876f73a6a18aad5 = L.featureGroup(
+                {}
+            ).addTo(map_cf1ba609c01b94f477f0e8bdb9ec631d);
+        
+    
+            var marker_6e7565e949ccf784cb4ae15a9952fbdb = L.marker(
+                [59.9162037, 10.73754044309241],
+                {}
+            ).addTo(feature_group_701bd985788da3d02876f73a6a18aad5);
+        
+    
+            var icon_a8f6376ead39bb266a04bbbff3587e90 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_6e7565e949ccf784cb4ae15a9952fbdb.setIcon(icon_a8f6376ead39bb266a04bbbff3587e90);
+        
+    
+        var popup_6944c5506f328941310dba34efc44b4c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf7dd04bd35ca96de60ca940b4fccd52 = $(`<div id="html_cf7dd04bd35ca96de60ca940b4fccd52" style="width: 100.0%; height: 100.0%;">             <iframe src="static/National Gallery (Norway), Oslo.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_6944c5506f328941310dba34efc44b4c.setContent(html_cf7dd04bd35ca96de60ca940b4fccd52);
+            
+        
+
+        marker_6e7565e949ccf784cb4ae15a9952fbdb.bindPopup(popup_6944c5506f328941310dba34efc44b4c)
+        ;
+
+        
+    
+    
+            var feature_group_3260572e0ad601c3d22d8543fa426654 = L.featureGroup(
+                {}
+            ).addTo(map_cf1ba609c01b94f477f0e8bdb9ec631d);
+        
+    
+            var marker_6d27fb8db55be16302baeab185ce324a = L.marker(
+                [55.74728495, 37.60542332654222],
+                {}
+            ).addTo(feature_group_3260572e0ad601c3d22d8543fa426654);
+        
+    
+            var icon_2118a72ff256e462b36656f5a8803917 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_6d27fb8db55be16302baeab185ce324a.setIcon(icon_2118a72ff256e462b36656f5a8803917);
+        
+    
+        var popup_2583456f282db3d576fe5268776c875c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da57863fad45bcc230a5c1923913d08f = $(`<div id="html_da57863fad45bcc230a5c1923913d08f" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Pushkin Museum, Moscow.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_2583456f282db3d576fe5268776c875c.setContent(html_da57863fad45bcc230a5c1923913d08f);
+            
+        
+
+        marker_6d27fb8db55be16302baeab185ce324a.bindPopup(popup_2583456f282db3d576fe5268776c875c)
+        ;
+
+        
+    
+    
+            var marker_56f396e07eda47649f855c4b46597f86 = L.marker(
+                [59.9412076, 30.31548651585394],
+                {}
+            ).addTo(feature_group_3260572e0ad601c3d22d8543fa426654);
+        
+    
+            var icon_aef0ed3b05a44e96b8efb054adb69845 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_56f396e07eda47649f855c4b46597f86.setIcon(icon_aef0ed3b05a44e96b8efb054adb69845);
+        
+    
+        var popup_6aaabccd306d07a2eb724ce2b152dfb0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f08ad51b764bb1ab82afc5cc624f645 = $(`<div id="html_4f08ad51b764bb1ab82afc5cc624f645" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Hermitage Museum, St Petersburg.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_6aaabccd306d07a2eb724ce2b152dfb0.setContent(html_4f08ad51b764bb1ab82afc5cc624f645);
+            
+        
+
+        marker_56f396e07eda47649f855c4b46597f86.bindPopup(popup_6aaabccd306d07a2eb724ce2b152dfb0)
+        ;
+
+        
+    
+    
+            var feature_group_e19fda590dcb381b8056ef965da76061 = L.featureGroup(
+                {}
+            ).addTo(map_cf1ba609c01b94f477f0e8bdb9ec631d);
+        
+    
+            var marker_620d6d4a1750568a637d9092456926e6 = L.marker(
+                [44.8167724, 20.45965380183389],
+                {}
+            ).addTo(feature_group_e19fda590dcb381b8056ef965da76061);
+        
+    
+            var icon_509a1a3b84c005000937dbc98e4c90c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_620d6d4a1750568a637d9092456926e6.setIcon(icon_509a1a3b84c005000937dbc98e4c90c2);
+        
+    
+        var popup_cd07e19fa04a533ae9dc09f1986cfc61 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_418fbbc9f4f02d9861fa1a4daddb7bef = $(`<div id="html_418fbbc9f4f02d9861fa1a4daddb7bef" style="width: 100.0%; height: 100.0%;">             <iframe src="static/National Museum of Serbia, Belgrade.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_cd07e19fa04a533ae9dc09f1986cfc61.setContent(html_418fbbc9f4f02d9861fa1a4daddb7bef);
+            
+        
+
+        marker_620d6d4a1750568a637d9092456926e6.bindPopup(popup_cd07e19fa04a533ae9dc09f1986cfc61)
+        ;
+
+        
+    
+    
+            var feature_group_5746ed8f0f12c1d6d05ce64c1a7392e2 = L.featureGroup(
+                {}
+            ).addTo(map_cf1ba609c01b94f477f0e8bdb9ec631d);
+        
+    
+            var marker_2c054540a5f10d3019bb7c3aed4d2d33 = L.marker(
+                [40.4162159, -3.694931688656911],
+                {}
+            ).addTo(feature_group_5746ed8f0f12c1d6d05ce64c1a7392e2);
+        
+    
+            var icon_a5245f8ba290d730ed93a8d82d3c0c7e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_2c054540a5f10d3019bb7c3aed4d2d33.setIcon(icon_a5245f8ba290d730ed93a8d82d3c0c7e);
+        
+    
+        var popup_962047eb1a46a2ce1090f030a2b8f481 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1fa2a81d57609869f4a2bc1dffded7f = $(`<div id="html_a1fa2a81d57609869f4a2bc1dffded7f" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Thyssen-Bornemisza Museum, Madrid.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_962047eb1a46a2ce1090f030a2b8f481.setContent(html_a1fa2a81d57609869f4a2bc1dffded7f);
+            
+        
+
+        marker_2c054540a5f10d3019bb7c3aed4d2d33.bindPopup(popup_962047eb1a46a2ce1090f030a2b8f481)
+        ;
+
+        
+    
+    
+            var marker_5aeed58a4ce52f80ef21919ffa9f56f9 = L.marker(
+                [43.2656175, -2.938209613686145],
+                {}
+            ).addTo(feature_group_5746ed8f0f12c1d6d05ce64c1a7392e2);
+        
+    
+            var icon_490b8db0c06289d761f710a6ae3b7aef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5aeed58a4ce52f80ef21919ffa9f56f9.setIcon(icon_490b8db0c06289d761f710a6ae3b7aef);
+        
+    
+        var popup_29f13882434800a429698cb2f02b190b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4521996cbd1d1b5fc877c3eb99758d0 = $(`<div id="html_c4521996cbd1d1b5fc877c3eb99758d0" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Bilbao Fine Arts Museum, Spain.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_29f13882434800a429698cb2f02b190b.setContent(html_c4521996cbd1d1b5fc877c3eb99758d0);
+            
+        
+
+        marker_5aeed58a4ce52f80ef21919ffa9f56f9.bindPopup(popup_29f13882434800a429698cb2f02b190b)
+        ;
+
+        
+    
+    
+            var feature_group_025bbd015301623276d6b9d3f47f12da = L.featureGroup(
+                {}
+            ).addTo(map_cf1ba609c01b94f477f0e8bdb9ec631d);
+        
+    
+            var marker_3a228bd6fb8ed231986c18951774f90c = L.marker(
+                [57.6963954, 11.98117946363444],
+                {}
+            ).addTo(feature_group_025bbd015301623276d6b9d3f47f12da);
+        
+    
+            var icon_c46cca46d0c52e2aad20c2b52612b569 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3a228bd6fb8ed231986c18951774f90c.setIcon(icon_c46cca46d0c52e2aad20c2b52612b569);
+        
+    
+        var popup_c183545fdbde0fdb567569e0dd3c0603 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ed4c0dd8e7e71b6332781719677ab1a = $(`<div id="html_7ed4c0dd8e7e71b6332781719677ab1a" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Konstmuseum Gothenburg.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_c183545fdbde0fdb567569e0dd3c0603.setContent(html_7ed4c0dd8e7e71b6332781719677ab1a);
+            
+        
+
+        marker_3a228bd6fb8ed231986c18951774f90c.bindPopup(popup_c183545fdbde0fdb567569e0dd3c0603)
+        ;
+
+        
+    
+    
+            var marker_298f809de3f1933d888ca295a06eb447 = L.marker(
+                [59.3284983, 18.07812138815038],
+                {}
+            ).addTo(feature_group_025bbd015301623276d6b9d3f47f12da);
+        
+    
+            var icon_4722b48b2f8e67f08a689c89fb770f40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_298f809de3f1933d888ca295a06eb447.setIcon(icon_4722b48b2f8e67f08a689c89fb770f40);
+        
+    
+        var popup_ba4b1cc2b77ea2f1ff9ee120adcdc1f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8bea6dda36894faa81d0669ea507fe8 = $(`<div id="html_c8bea6dda36894faa81d0669ea507fe8" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Nationalmuseum, Stockholm.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_ba4b1cc2b77ea2f1ff9ee120adcdc1f4.setContent(html_c8bea6dda36894faa81d0669ea507fe8);
+            
+        
+
+        marker_298f809de3f1933d888ca295a06eb447.bindPopup(popup_ba4b1cc2b77ea2f1ff9ee120adcdc1f4)
+        ;
+
+        
+    
+    
+            var feature_group_aecb3be95d280b3bd4b9d9d381692f37 = L.featureGroup(
+                {}
+            ).addTo(map_cf1ba609c01b94f477f0e8bdb9ec631d);
+        
+    
+            var marker_a041be6516b533c697e4e06f921e1521 = L.marker(
+                [47.3530309, 8.561692315940654],
+                {}
+            ).addTo(feature_group_aecb3be95d280b3bd4b9d9d381692f37);
+        
+    
+            var icon_3b04b28f7a565a3bef179c4d74d6b757 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_a041be6516b533c697e4e06f921e1521.setIcon(icon_3b04b28f7a565a3bef179c4d74d6b757);
+        
+    
+        var popup_29b527bfa8999f764a66bab8b236089e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12353e0830afabfa483b42dff764f26c = $(`<div id="html_12353e0830afabfa483b42dff764f26c" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Stiftung Sammlung E. G. Bührle, Zurich.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_29b527bfa8999f764a66bab8b236089e.setContent(html_12353e0830afabfa483b42dff764f26c);
+            
+        
+
+        marker_a041be6516b533c697e4e06f921e1521.bindPopup(popup_29b527bfa8999f764a66bab8b236089e)
+        ;
+
+        
+    
+    
+            var marker_93782c230939509a78957348ff14dc61 = L.marker(
+                [47.39002, 8.0447395],
+                {}
+            ).addTo(feature_group_aecb3be95d280b3bd4b9d9d381692f37);
+        
+    
+            var icon_4de68a49929e7cf03a7718465e4a4c72 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_93782c230939509a78957348ff14dc61.setIcon(icon_4de68a49929e7cf03a7718465e4a4c72);
+        
+    
+        var popup_403341469743ca8dcd1cbd7bc2737a47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a69dad4da1db20a114e4abdb5b8c880e = $(`<div id="html_a69dad4da1db20a114e4abdb5b8c880e" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Aargauer Kunsthaus, Switzerland.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_403341469743ca8dcd1cbd7bc2737a47.setContent(html_a69dad4da1db20a114e4abdb5b8c880e);
+            
+        
+
+        marker_93782c230939509a78957348ff14dc61.bindPopup(popup_403341469743ca8dcd1cbd7bc2737a47)
+        ;
+
+        
+    
+    
+            var marker_a249d99e4f3f75b1e95bba78d72a4c31 = L.marker(
+                [47.51138835, 8.731626998025042],
+                {}
+            ).addTo(feature_group_aecb3be95d280b3bd4b9d9d381692f37);
+        
+    
+            var icon_a056671429aa436c4c9a3d3a49c46b1d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_a249d99e4f3f75b1e95bba78d72a4c31.setIcon(icon_a056671429aa436c4c9a3d3a49c46b1d);
+        
+    
+        var popup_715a296378748cacb66eeb562e4125a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bddce91a3ecd000f6f72efadfc4c9303 = $(`<div id="html_bddce91a3ecd000f6f72efadfc4c9303" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Sammlung Oskar Reinhart am Römerholz, Winterthur.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_715a296378748cacb66eeb562e4125a8.setContent(html_bddce91a3ecd000f6f72efadfc4c9303);
+            
+        
+
+        marker_a249d99e4f3f75b1e95bba78d72a4c31.bindPopup(popup_715a296378748cacb66eeb562e4125a8)
+        ;
+
+        
+    
+    
+            var marker_7d7644537d855340705e985707658d71 = L.marker(
+                [47.5017786, 8.7303768],
+                {}
+            ).addTo(feature_group_aecb3be95d280b3bd4b9d9d381692f37);
+        
+    
+            var icon_dfe0903aadda8793efcdeb4a0e9240e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_7d7644537d855340705e985707658d71.setIcon(icon_dfe0903aadda8793efcdeb4a0e9240e1);
+        
+    
+        var popup_f919b513de16247bd6695c449b55bcf6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d43c16b79773b6ced7ade0d6a86e01b4 = $(`<div id="html_d43c16b79773b6ced7ade0d6a86e01b4" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Kunstmuseum Winterthur, Switzerland.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_f919b513de16247bd6695c449b55bcf6.setContent(html_d43c16b79773b6ced7ade0d6a86e01b4);
+            
+        
+
+        marker_7d7644537d855340705e985707658d71.bindPopup(popup_f919b513de16247bd6695c449b55bcf6)
+        ;
+
+        
+    
+    
+            var marker_ce1c27176605e3fb5e3b5e1c515383c0 = L.marker(
+                [47.5544072, 7.5938445],
+                {}
+            ).addTo(feature_group_aecb3be95d280b3bd4b9d9d381692f37);
+        
+    
+            var icon_2b33ff6a6bafd45e2d1a9a7aab53842e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ce1c27176605e3fb5e3b5e1c515383c0.setIcon(icon_2b33ff6a6bafd45e2d1a9a7aab53842e);
+        
+    
+        var popup_f1faff7b88a1cbc007988d0283a6eb6f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8baf98783683decf3327768500a0d499 = $(`<div id="html_8baf98783683decf3327768500a0d499" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Kunstmuseum Basel.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_f1faff7b88a1cbc007988d0283a6eb6f.setContent(html_8baf98783683decf3327768500a0d499);
+            
+        
+
+        marker_ce1c27176605e3fb5e3b5e1c515383c0.bindPopup(popup_f1faff7b88a1cbc007988d0283a6eb6f)
+        ;
+
+        
+    
+    
+            var marker_e524bbdede8730de342facac17ea8b5c = L.marker(
+                [47.3702241, 8.547979746081108],
+                {}
+            ).addTo(feature_group_aecb3be95d280b3bd4b9d9d381692f37);
+        
+    
+            var icon_00f4982255eff47ef6f65d8b111d1581 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e524bbdede8730de342facac17ea8b5c.setIcon(icon_00f4982255eff47ef6f65d8b111d1581);
+        
+    
+        var popup_e4806e0cdab1943b56f60b647c6207f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e6835b3e561031729dd31022034a24a0 = $(`<div id="html_e6835b3e561031729dd31022034a24a0" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Kunsthaus Zürich.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_e4806e0cdab1943b56f60b647c6207f9.setContent(html_e6835b3e561031729dd31022034a24a0);
+            
+        
+
+        marker_e524bbdede8730de342facac17ea8b5c.bindPopup(popup_e4806e0cdab1943b56f60b647c6207f9)
+        ;
+
+        
+    
+    
+            var marker_5f4eda84f1241c41e4b60b59506ecd6e = L.marker(
+                [47.10047845, 6.829521187894737],
+                {}
+            ).addTo(feature_group_aecb3be95d280b3bd4b9d9d381692f37);
+        
+    
+            var icon_09680ea806956d083a7ab4ddb1bed7c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5f4eda84f1241c41e4b60b59506ecd6e.setIcon(icon_09680ea806956d083a7ab4ddb1bed7c5);
+        
+    
+        var popup_11d2fa414f8ac8dc448413cbb160d693 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5396ce61355458e038bdb849f24db849 = $(`<div id="html_5396ce61355458e038bdb849f24db849" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Musée des beaux-arts de La Chaux-de-Fonds, Switzerland.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_11d2fa414f8ac8dc448413cbb160d693.setContent(html_5396ce61355458e038bdb849f24db849);
+            
+        
+
+        marker_5f4eda84f1241c41e4b60b59506ecd6e.bindPopup(popup_11d2fa414f8ac8dc448413cbb160d693)
+        ;
+
+        
+    
+    
+            var marker_f00c12b68639bac1ba728c89ef0a6bf1 = L.marker(
+                [47.48147125, 8.307553360707628],
+                {}
+            ).addTo(feature_group_aecb3be95d280b3bd4b9d9d381692f37);
+        
+    
+            var icon_8dbb99c8523d898f5970b6afb143b192 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f00c12b68639bac1ba728c89ef0a6bf1.setIcon(icon_8dbb99c8523d898f5970b6afb143b192);
+        
+    
+        var popup_4ef3bd8dbd91ab5ba672b0449abbba3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8e4a4fc6cfaf761d7881bcdce043b1a = $(`<div id="html_f8e4a4fc6cfaf761d7881bcdce043b1a" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Museum Langmatt, Baden, Switzerland.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_4ef3bd8dbd91ab5ba672b0449abbba3a.setContent(html_f8e4a4fc6cfaf761d7881bcdce043b1a);
+            
+        
+
+        marker_f00c12b68639bac1ba728c89ef0a6bf1.bindPopup(popup_4ef3bd8dbd91ab5ba672b0449abbba3a)
+        ;
+
+        
+    
+    
+            var feature_group_4b470901c78c29354f11aced97fe143b = L.featureGroup(
+                {}
+            ).addTo(map_cf1ba609c01b94f477f0e8bdb9ec631d);
+        
+    
+            var marker_3e083c3fc9dbc2a5096f2846eb9e2c62 = L.marker(
+                [52.1998523, 0.1197386574107438],
+                {}
+            ).addTo(feature_group_4b470901c78c29354f11aced97fe143b);
+        
+    
+            var icon_71d5c8ee068afe51c5e7746b2c335d93 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3e083c3fc9dbc2a5096f2846eb9e2c62.setIcon(icon_71d5c8ee068afe51c5e7746b2c335d93);
+        
+    
+        var popup_761bbea363f8a43b871f2a79d4ed8dc0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea4c0d2332977a581afba5c15aa5b648 = $(`<div id="html_ea4c0d2332977a581afba5c15aa5b648" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Fitzwilliam Museum, Cambridge, UK.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_761bbea363f8a43b871f2a79d4ed8dc0.setContent(html_ea4c0d2332977a581afba5c15aa5b648);
+            
+        
+
+        marker_3e083c3fc9dbc2a5096f2846eb9e2c62.bindPopup(popup_761bbea363f8a43b871f2a79d4ed8dc0)
+        ;
+
+        
+    
+    
+            var marker_5a565ccb46d35f5b5954a44288ff0a4a = L.marker(
+                [53.3796799, -1.467550360357884],
+                {}
+            ).addTo(feature_group_4b470901c78c29354f11aced97fe143b);
+        
+    
+            var icon_28498192673a8b320add36fb262497b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5a565ccb46d35f5b5954a44288ff0a4a.setIcon(icon_28498192673a8b320add36fb262497b9);
+        
+    
+        var popup_25759b9db74f15feac2bb2bf5af21535 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa7eee88b717c0d0ec00e341bf9cc180 = $(`<div id="html_fa7eee88b717c0d0ec00e341bf9cc180" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Millennium Gallery, Sheffield, UK.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_25759b9db74f15feac2bb2bf5af21535.setContent(html_fa7eee88b717c0d0ec00e341bf9cc180);
+            
+        
+
+        marker_5a565ccb46d35f5b5954a44288ff0a4a.bindPopup(popup_25759b9db74f15feac2bb2bf5af21535)
+        ;
+
+        
+    
+    
+            var marker_f1b3f3077fd7d26d4a6f4259545b24b7 = L.marker(
+                [51.41848725, -1.733262734714283],
+                {}
+            ).addTo(feature_group_4b470901c78c29354f11aced97fe143b);
+        
+    
+            var icon_1e828d90b1f67ff31fce379c80631f63 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f1b3f3077fd7d26d4a6f4259545b24b7.setIcon(icon_1e828d90b1f67ff31fce379c80631f63);
+        
+    
+        var popup_3ece276b8cec1821194acd5fe1f42aac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9beec6269d7cc2d5890c74e7c304ef1 = $(`<div id="html_a9beec6269d7cc2d5890c74e7c304ef1" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Marlborough Gallery.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_3ece276b8cec1821194acd5fe1f42aac.setContent(html_a9beec6269d7cc2d5890c74e7c304ef1);
+            
+        
+
+        marker_f1b3f3077fd7d26d4a6f4259545b24b7.bindPopup(popup_3ece276b8cec1821194acd5fe1f42aac)
+        ;
+
+        
+    
+    
+            var marker_d101f0f1e3596e3258c287a5a5873af5 = L.marker(
+                [55.8685825, -4.290627759615381],
+                {}
+            ).addTo(feature_group_4b470901c78c29354f11aced97fe143b);
+        
+    
+            var icon_11df3fde072adbbd641aa93f6f7c26a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d101f0f1e3596e3258c287a5a5873af5.setIcon(icon_11df3fde072adbbd641aa93f6f7c26a3);
+        
+    
+        var popup_3ae7e1a046b49eb0d55e5c2fc388f3c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b306edfd542952edce6b6180d52edab5 = $(`<div id="html_b306edfd542952edce6b6180d52edab5" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Kelvingrove Art Gallery and Museum, Glasgow.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_3ae7e1a046b49eb0d55e5c2fc388f3c7.setContent(html_b306edfd542952edce6b6180d52edab5);
+            
+        
+
+        marker_d101f0f1e3596e3258c287a5a5873af5.bindPopup(popup_3ae7e1a046b49eb0d55e5c2fc388f3c7)
+        ;
+
+        
+    
+    
+            var marker_3d22f6b3d55c88e9b4879541a12ae2f4 = L.marker(
+                [53.4786409, -2.241417466123816],
+                {}
+            ).addTo(feature_group_4b470901c78c29354f11aced97fe143b);
+        
+    
+            var icon_43e2d58cc3b84af5ef87177e6b85b3db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3d22f6b3d55c88e9b4879541a12ae2f4.setIcon(icon_43e2d58cc3b84af5ef87177e6b85b3db);
+        
+    
+        var popup_eed0b83fa84723b39f2d91e921fdaf63 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ccf12db58871321adbf3b49e9dd978ef = $(`<div id="html_ccf12db58871321adbf3b49e9dd978ef" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Manchester Art Gallery, UK.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_eed0b83fa84723b39f2d91e921fdaf63.setContent(html_ccf12db58871321adbf3b49e9dd978ef);
+            
+        
+
+        marker_3d22f6b3d55c88e9b4879541a12ae2f4.bindPopup(popup_eed0b83fa84723b39f2d91e921fdaf63)
+        ;
+
+        
+    
+    
+            var marker_3e9110cf386b3d034afe7debe9797927 = L.marker(
+                [54.97491025, -1.609371144325758],
+                {}
+            ).addTo(feature_group_4b470901c78c29354f11aced97fe143b);
+        
+    
+            var icon_82132a362972175b06324c48a9149508 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3e9110cf386b3d034afe7debe9797927.setIcon(icon_82132a362972175b06324c48a9149508);
+        
+    
+        var popup_0fc52a6f316b2beaad7197d5a72e81eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a5256e3a4271b495169807249a551cc = $(`<div id="html_2a5256e3a4271b495169807249a551cc" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Laing Art Gallery.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_0fc52a6f316b2beaad7197d5a72e81eb.setContent(html_2a5256e3a4271b495169807249a551cc);
+            
+        
+
+        marker_3e9110cf386b3d034afe7debe9797927.bindPopup(popup_0fc52a6f316b2beaad7197d5a72e81eb)
+        ;
+
+        
+    
+    
+            var marker_6d5ed807176dac713f699208f6b69522 = L.marker(
+                [55.9508809, -3.195619300000002],
+                {}
+            ).addTo(feature_group_4b470901c78c29354f11aced97fe143b);
+        
+    
+            var icon_09d8bc0292733ce493453533f60bc019 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_6d5ed807176dac713f699208f6b69522.setIcon(icon_09d8bc0292733ce493453533f60bc019);
+        
+    
+        var popup_1467253b0057695470c95fd14de5fa85 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a637712dc9b5e497ccd64bd3dee2265 = $(`<div id="html_7a637712dc9b5e497ccd64bd3dee2265" style="width: 100.0%; height: 100.0%;">             <iframe src="static/National Gallery of Scotland, Edinburgh.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_1467253b0057695470c95fd14de5fa85.setContent(html_7a637712dc9b5e497ccd64bd3dee2265);
+            
+        
+
+        marker_6d5ed807176dac713f699208f6b69522.bindPopup(popup_1467253b0057695470c95fd14de5fa85)
+        ;
+
+        
+    
+    
+            var marker_2550072b72b5a61218b8bfb3a50c884a = L.marker(
+                [52.45040845, -1.927744234527111],
+                {}
+            ).addTo(feature_group_4b470901c78c29354f11aced97fe143b);
+        
+    
+            var icon_8148b694fe06cb1487fc27e79610525b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_2550072b72b5a61218b8bfb3a50c884a.setIcon(icon_8148b694fe06cb1487fc27e79610525b);
+        
+    
+        var popup_95337dac33cbae05de1bb5ef60643a83 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e67657a2502c0e57e2ed504a343f664 = $(`<div id="html_6e67657a2502c0e57e2ed504a343f664" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Barber Institute of Fine Arts, Birmingham.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_95337dac33cbae05de1bb5ef60643a83.setContent(html_6e67657a2502c0e57e2ed504a343f664);
+            
+        
+
+        marker_2550072b72b5a61218b8bfb3a50c884a.bindPopup(popup_95337dac33cbae05de1bb5ef60643a83)
+        ;
+
+        
+    
+    
+            var marker_51c4d0193e9e0dcdc24931e8889bce4e = L.marker(
+                [51.5116244, -0.1177002],
+                {}
+            ).addTo(feature_group_4b470901c78c29354f11aced97fe143b);
+        
+    
+            var icon_2b73227409bdd7f2c57767f20d2a76c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_51c4d0193e9e0dcdc24931e8889bce4e.setIcon(icon_2b73227409bdd7f2c57767f20d2a76c9);
+        
+    
+        var popup_ad60eefec0ab6e43649985f0749cb01a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_afa0657487c2883d1abac4d6b799a8a0 = $(`<div id="html_afa0657487c2883d1abac4d6b799a8a0" style="width: 100.0%; height: 100.0%;">             <iframe src="static/The Courtauld Gallery.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_ad60eefec0ab6e43649985f0749cb01a.setContent(html_afa0657487c2883d1abac4d6b799a8a0);
+            
+        
+
+        marker_51c4d0193e9e0dcdc24931e8889bce4e.bindPopup(popup_ad60eefec0ab6e43649985f0749cb01a)
+        ;
+
+        
+    
+    
+            var marker_755c92883ecd64ce7e2a9beeb81eea18 = L.marker(
+                [51.50888405, -0.1283741501862351],
+                {}
+            ).addTo(feature_group_4b470901c78c29354f11aced97fe143b);
+        
+    
+            var icon_e6a429d2905d5fd68591c9bb6ca3060e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_755c92883ecd64ce7e2a9beeb81eea18.setIcon(icon_e6a429d2905d5fd68591c9bb6ca3060e);
+        
+    
+        var popup_c7a5716e7df0b8b5a4caafdf8b67733c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b44a530b3e725dde198a310965bb8302 = $(`<div id="html_b44a530b3e725dde198a310965bb8302" style="width: 100.0%; height: 100.0%;">             <iframe src="static/National Gallery, London.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_c7a5716e7df0b8b5a4caafdf8b67733c.setContent(html_b44a530b3e725dde198a310965bb8302);
+            
+        
+
+        marker_755c92883ecd64ce7e2a9beeb81eea18.bindPopup(popup_c7a5716e7df0b8b5a4caafdf8b67733c)
+        ;
+
+        
+    
+    
+            var feature_group_61b0e07353937f4233cda821f04e697d = L.featureGroup(
+                {}
+            ).addTo(map_cf1ba609c01b94f477f0e8bdb9ec631d);
+        
+    
+            var marker_b818e2a3043ede331ac7246efddf0220 = L.marker(
+                [39.82599635, -86.18583487318881],
+                {}
+            ).addTo(feature_group_61b0e07353937f4233cda821f04e697d);
+        
+    
+            var icon_03c9cb6a8ffeb15787fe61c3fd4c1fc7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_b818e2a3043ede331ac7246efddf0220.setIcon(icon_03c9cb6a8ffeb15787fe61c3fd4c1fc7);
+        
+    
+        var popup_4c50ec9623d4e6005552fa4c9ba31144 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_02a511f23dc6ec02cb1c299edbcc7d41 = $(`<div id="html_02a511f23dc6ec02cb1c299edbcc7d41" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Indianapolis Museum of Art.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_4c50ec9623d4e6005552fa4c9ba31144.setContent(html_02a511f23dc6ec02cb1c299edbcc7d41);
+            
+        
+
+        marker_b818e2a3043ede331ac7246efddf0220.bindPopup(popup_4c50ec9623d4e6005552fa4c9ba31144)
+        ;
+
+        
+    
+    
+            var marker_527a164da11f528fad67b1b0daf455aa = L.marker(
+                [37.5560585, -77.47489519609522],
+                {}
+            ).addTo(feature_group_61b0e07353937f4233cda821f04e697d);
+        
+    
+            var icon_3648678b7aff794ef2b2376781afc9a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_527a164da11f528fad67b1b0daf455aa.setIcon(icon_3648678b7aff794ef2b2376781afc9a6);
+        
+    
+        var popup_fb91d15edd3ac16d06ad01517da5bf6e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44262d9dc4587af84f3c386e9caa8922 = $(`<div id="html_44262d9dc4587af84f3c386e9caa8922" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Virginia Museum of Fine Arts, Richmond, Virginia.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_fb91d15edd3ac16d06ad01517da5bf6e.setContent(html_44262d9dc4587af84f3c386e9caa8922);
+            
+        
+
+        marker_527a164da11f528fad67b1b0daf455aa.bindPopup(popup_fb91d15edd3ac16d06ad01517da5bf6e)
+        ;
+
+        
+    
+    
+            var marker_8f760ad1c6361bb89a57abf088c39611 = L.marker(
+                [42.3739274, -71.1144331],
+                {}
+            ).addTo(feature_group_61b0e07353937f4233cda821f04e697d);
+        
+    
+            var icon_8bf483836a9bf3946df97f83ccbbf769 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_8f760ad1c6361bb89a57abf088c39611.setIcon(icon_8bf483836a9bf3946df97f83ccbbf769);
+        
+    
+        var popup_4540ad49e750468d4ce7fb347b3f420b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c45e0116493fb80c889e96b7cd82472 = $(`<div id="html_4c45e0116493fb80c889e96b7cd82472" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Fogg Museum, Cambridge, MA.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_4540ad49e750468d4ce7fb347b3f420b.setContent(html_4c45e0116493fb80c889e96b7cd82472);
+            
+        
+
+        marker_8f760ad1c6361bb89a57abf088c39611.bindPopup(popup_4540ad49e750468d4ce7fb347b3f420b)
+        ;
+
+        
+    
+    
+            var marker_be2c2296df9cd386ec598151542e1f1e = L.marker(
+                [39.96556385, -75.18151277315162],
+                {}
+            ).addTo(feature_group_61b0e07353937f4233cda821f04e697d);
+        
+    
+            var icon_947b66cd05afbef5373166915f70ed5e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_be2c2296df9cd386ec598151542e1f1e.setIcon(icon_947b66cd05afbef5373166915f70ed5e);
+        
+    
+        var popup_c5a6d33be0f39a9976c227c4d080f8f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed4446e81dd620cf6374c4e62875f767 = $(`<div id="html_ed4446e81dd620cf6374c4e62875f767" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Philadelphia Museum of Art.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_c5a6d33be0f39a9976c227c4d080f8f1.setContent(html_ed4446e81dd620cf6374c4e62875f767);
+            
+        
+
+        marker_be2c2296df9cd386ec598151542e1f1e.bindPopup(popup_c5a6d33be0f39a9976c227c4d080f8f1)
+        ;
+
+        
+    
+    
+            var marker_e9df0821bc7744995a32a6bcff4b3243 = L.marker(
+                [42.31622385, -72.64039314741159],
+                {}
+            ).addTo(feature_group_61b0e07353937f4233cda821f04e697d);
+        
+    
+            var icon_c327f5b6b43ea5f130d112dda7b37403 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e9df0821bc7744995a32a6bcff4b3243.setIcon(icon_c327f5b6b43ea5f130d112dda7b37403);
+        
+    
+        var popup_d490943fbd500db9c3679272b91d5acf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3bb3de783e58e753cc5a833cb144376 = $(`<div id="html_b3bb3de783e58e753cc5a833cb144376" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Smith College, Northampton, MA.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_d490943fbd500db9c3679272b91d5acf.setContent(html_b3bb3de783e58e753cc5a833cb144376);
+            
+        
+
+        marker_e9df0821bc7744995a32a6bcff4b3243.bindPopup(popup_d490943fbd500db9c3679272b91d5acf)
+        ;
+
+        
+    
+    
+            var marker_f657d37887847f0865aea0272af33e02 = L.marker(
+                [32.78783105, -96.80133687980364],
+                {}
+            ).addTo(feature_group_61b0e07353937f4233cda821f04e697d);
+        
+    
+            var icon_c8dd5ba07a1042f23bcf1262bce79fa1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f657d37887847f0865aea0272af33e02.setIcon(icon_c8dd5ba07a1042f23bcf1262bce79fa1);
+        
+    
+        var popup_afc6f17a6a714f8617099e1a060d6ed3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc378a5a831964d7b560457be61b6dd9 = $(`<div id="html_fc378a5a831964d7b560457be61b6dd9" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Dallas Museum of Art, Texas.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_afc6f17a6a714f8617099e1a060d6ed3.setContent(html_fc378a5a831964d7b560457be61b6dd9);
+            
+        
+
+        marker_f657d37887847f0865aea0272af33e02.bindPopup(popup_afc6f17a6a714f8617099e1a060d6ed3)
+        ;
+
+        
+    
+    
+            var marker_e4d5d1e09d6d0e7d0124690ed973d33a = L.marker(
+                [41.8796009, -87.62308280420407],
+                {}
+            ).addTo(feature_group_61b0e07353937f4233cda821f04e697d);
+        
+    
+            var icon_02d0386c9c0852f6a45b2f224be331ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e4d5d1e09d6d0e7d0124690ed973d33a.setIcon(icon_02d0386c9c0852f6a45b2f224be331ba);
+        
+    
+        var popup_8099b887ddf902f3b447833144c30160 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c21cd5ad0a95d8735233f120eacd75b = $(`<div id="html_7c21cd5ad0a95d8735233f120eacd75b" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Art Institute of Chicago.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_8099b887ddf902f3b447833144c30160.setContent(html_7c21cd5ad0a95d8735233f120eacd75b);
+            
+        
+
+        marker_e4d5d1e09d6d0e7d0124690ed973d33a.bindPopup(popup_8099b887ddf902f3b447833144c30160)
+        ;
+
+        
+    
+    
+            var marker_88ec93a41cd8f3ddaec7fbcfa41e8fda = L.marker(
+                [25.719383, -80.27561],
+                {}
+            ).addTo(feature_group_61b0e07353937f4233cda821f04e697d);
+        
+    
+            var icon_821518ebad795d3d2e861ae5b2aca9f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_88ec93a41cd8f3ddaec7fbcfa41e8fda.setIcon(icon_821518ebad795d3d2e861ae5b2aca9f2);
+        
+    
+        var popup_b94694fd9d749c79ed7370e23fa282cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9e3d364bfeca4aacf3ec70b8c647507 = $(`<div id="html_e9e3d364bfeca4aacf3ec70b8c647507" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Lowe Art Museum, Miami.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_b94694fd9d749c79ed7370e23fa282cc.setContent(html_e9e3d364bfeca4aacf3ec70b8c647507);
+            
+        
+
+        marker_88ec93a41cd8f3ddaec7fbcfa41e8fda.bindPopup(popup_b94694fd9d749c79ed7370e23fa282cc)
+        ;
+
+        
+    
+    
+            var marker_098607ca8e8fc3c5326b94ed67a5a4fd = L.marker(
+                [41.8265158, -71.40769603214673],
+                {}
+            ).addTo(feature_group_61b0e07353937f4233cda821f04e697d);
+        
+    
+            var icon_f73b6778519fb68221bffe8cbffdf733 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_098607ca8e8fc3c5326b94ed67a5a4fd.setIcon(icon_f73b6778519fb68221bffe8cbffdf733);
+        
+    
+        var popup_6e0dc35876f73cece2ea0e923e178a6b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8fdd26347e87edfe35a74f0932e201b7 = $(`<div id="html_8fdd26347e87edfe35a74f0932e201b7" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Rhode Island School of Design Museum, Providence.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_6e0dc35876f73cece2ea0e923e178a6b.setContent(html_8fdd26347e87edfe35a74f0932e201b7);
+            
+        
+
+        marker_098607ca8e8fc3c5326b94ed67a5a4fd.bindPopup(popup_6e0dc35876f73cece2ea0e923e178a6b)
+        ;
+
+        
+    
+    
+            var marker_be0b350b819df9240db591d980f0be4c = L.marker(
+                [42.27303360000001, -71.80197702909331],
+                {}
+            ).addTo(feature_group_61b0e07353937f4233cda821f04e697d);
+        
+    
+            var icon_e9f38308a6adc0aa0401caec34b667e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_be0b350b819df9240db591d980f0be4c.setIcon(icon_e9f38308a6adc0aa0401caec34b667e9);
+        
+    
+        var popup_ec7de02a4ae74bed13b0f69ea3b0c7e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92df975a78c656279aee0685695ca495 = $(`<div id="html_92df975a78c656279aee0685695ca495" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Worcester Art Museum, Massachusetts.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_ec7de02a4ae74bed13b0f69ea3b0c7e8.setContent(html_92df975a78c656279aee0685695ca495);
+            
+        
+
+        marker_be0b350b819df9240db591d980f0be4c.bindPopup(popup_ec7de02a4ae74bed13b0f69ea3b0c7e8)
+        ;
+
+        
+    
+    
+            var marker_65e1e1027d7c9442dc6d134592803825 = L.marker(
+                [43.6538904, -70.262585],
+                {}
+            ).addTo(feature_group_61b0e07353937f4233cda821f04e697d);
+        
+    
+            var icon_f8ff5194b7f214c68d6ffacb0f1643e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_65e1e1027d7c9442dc6d134592803825.setIcon(icon_f8ff5194b7f214c68d6ffacb0f1643e4);
+        
+    
+        var popup_db7bb01a1d939f38cdc3a55da8ab744f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e371a87a86cd699bdb1d8ff68b4509a4 = $(`<div id="html_e371a87a86cd699bdb1d8ff68b4509a4" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Portland Museum of Art, Maine.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_db7bb01a1d939f38cdc3a55da8ab744f.setContent(html_e371a87a86cd699bdb1d8ff68b4509a4);
+            
+        
+
+        marker_65e1e1027d7c9442dc6d134592803825.bindPopup(popup_db7bb01a1d939f38cdc3a55da8ab744f)
+        ;
+
+        
+    
+    
+            var marker_9a5967601ccd3efe880171ab4e96c81c = L.marker(
+                [29.7250839, -95.38948566052063],
+                {}
+            ).addTo(feature_group_61b0e07353937f4233cda821f04e697d);
+        
+    
+            var icon_1a5f9016a459d7cf1e066563e7ffeae3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9a5967601ccd3efe880171ab4e96c81c.setIcon(icon_1a5f9016a459d7cf1e066563e7ffeae3);
+        
+    
+        var popup_a0463dcc627f6b634d116b814592348e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77e59dfc797bf9b52c4470a49e0d9f4f = $(`<div id="html_77e59dfc797bf9b52c4470a49e0d9f4f" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Museum of Fine Arts, Houston.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_a0463dcc627f6b634d116b814592348e.setContent(html_77e59dfc797bf9b52c4470a49e0d9f4f);
+            
+        
+
+        marker_9a5967601ccd3efe880171ab4e96c81c.bindPopup(popup_a0463dcc627f6b634d116b814592348e)
+        ;
+
+        
+    
+    
+            var marker_79a9645143018384e77bb1eee021c56b = L.marker(
+                [38.89131155, -77.01990447478894],
+                {}
+            ).addTo(feature_group_61b0e07353937f4233cda821f04e697d);
+        
+    
+            var icon_468c998530e4feef770669d12d43f52e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_79a9645143018384e77bb1eee021c56b.setIcon(icon_468c998530e4feef770669d12d43f52e);
+        
+    
+        var popup_7a105f37683ff3e1eecd1f43598a8be6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7312f63abdb941074c51aaf0be2cbf26 = $(`<div id="html_7312f63abdb941074c51aaf0be2cbf26" style="width: 100.0%; height: 100.0%;">             <iframe src="static/National Gallery of Art, Washington D.C..html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_7a105f37683ff3e1eecd1f43598a8be6.setContent(html_7312f63abdb941074c51aaf0be2cbf26);
+            
+        
+
+        marker_79a9645143018384e77bb1eee021c56b.bindPopup(popup_7a105f37683ff3e1eecd1f43598a8be6)
+        ;
+
+        
+    
+    
+            var marker_e613fb856350d4dab74137ab43e75b29 = L.marker(
+                [32.74854885, -97.36508003561465],
+                {}
+            ).addTo(feature_group_61b0e07353937f4233cda821f04e697d);
+        
+    
+            var icon_3f95869d0c42fdf0b68d6383f0849c41 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e613fb856350d4dab74137ab43e75b29.setIcon(icon_3f95869d0c42fdf0b68d6383f0849c41);
+        
+    
+        var popup_aad352705d94952e67dfe13a9476bad0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15bcbcee46a376523022339fd7c09ced = $(`<div id="html_15bcbcee46a376523022339fd7c09ced" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Kimbell Art Museum, Fort Worth, Texas.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_aad352705d94952e67dfe13a9476bad0.setContent(html_15bcbcee46a376523022339fd7c09ced);
+            
+        
+
+        marker_e613fb856350d4dab74137ab43e75b29.bindPopup(popup_aad352705d94952e67dfe13a9476bad0)
+        ;
+
+        
+    
+    
+            var marker_abcb183a5666668df83c1a1c11d48ca0 = L.marker(
+                [35.1065843, -89.91696636548237],
+                {}
+            ).addTo(feature_group_61b0e07353937f4233cda821f04e697d);
+        
+    
+            var icon_c551213a563c21275aebb7a736d8195c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_abcb183a5666668df83c1a1c11d48ca0.setIcon(icon_c551213a563c21275aebb7a736d8195c);
+        
+    
+        var popup_e7759cabf16f2f0d12351d70d3871d38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23749c738089b9e2fad20caf6af2356d = $(`<div id="html_23749c738089b9e2fad20caf6af2356d" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Dixon Gallery and Gardens, Memphis, Tennessee.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_e7759cabf16f2f0d12351d70d3871d38.setContent(html_23749c738089b9e2fad20caf6af2356d);
+            
+        
+
+        marker_abcb183a5666668df83c1a1c11d48ca0.bindPopup(popup_e7759cabf16f2f0d12351d70d3871d38)
+        ;
+
+        
+    
+    
+            var marker_6443ab8447da5d2e86a50f69aee631f9 = L.marker(
+                [34.06373619999999, -118.3589031574616],
+                {}
+            ).addTo(feature_group_61b0e07353937f4233cda821f04e697d);
+        
+    
+            var icon_557128c29cd4cbf39dae0d88127bf1f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_6443ab8447da5d2e86a50f69aee631f9.setIcon(icon_557128c29cd4cbf39dae0d88127bf1f4);
+        
+    
+        var popup_e45a6e61a561fcccb795cebccec867be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1439ef4f07cc0d4f0bf7ce8e4d83e08b = $(`<div id="html_1439ef4f07cc0d4f0bf7ce8e4d83e08b" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Los Angeles County Museum of Art.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_e45a6e61a561fcccb795cebccec867be.setContent(html_1439ef4f07cc0d4f0bf7ce8e4d83e08b);
+            
+        
+
+        marker_6443ab8447da5d2e86a50f69aee631f9.bindPopup(popup_e45a6e61a561fcccb795cebccec867be)
+        ;
+
+        
+    
+    
+            var marker_d2167e78ed65d46bf7732fafbef7b3a6 = L.marker(
+                [40.7616124, -73.97749918210806],
+                {}
+            ).addTo(feature_group_61b0e07353937f4233cda821f04e697d);
+        
+    
+            var icon_3f0c4d3afcd744e3c0846f91edee3013 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d2167e78ed65d46bf7732fafbef7b3a6.setIcon(icon_3f0c4d3afcd744e3c0846f91edee3013);
+        
+    
+        var popup_65d9e61d78691b3b01b66a68367fc0cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75ffaae7f6b6bd736b51bf08c696c0d4 = $(`<div id="html_75ffaae7f6b6bd736b51bf08c696c0d4" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Museum of Modern Art, New York.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_65d9e61d78691b3b01b66a68367fc0cd.setContent(html_75ffaae7f6b6bd736b51bf08c696c0d4);
+            
+        
+
+        marker_d2167e78ed65d46bf7732fafbef7b3a6.bindPopup(popup_65d9e61d78691b3b01b66a68367fc0cd)
+        ;
+
+        
+    
+    
+            var marker_ffd879676ea9da914de553189653b53d = L.marker(
+                [38.6394114, -90.2944862],
+                {}
+            ).addTo(feature_group_61b0e07353937f4233cda821f04e697d);
+        
+    
+            var icon_170282ca5912304e432c1461c728c84a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ffd879676ea9da914de553189653b53d.setIcon(icon_170282ca5912304e432c1461c728c84a);
+        
+    
+        var popup_f9880189a3d683536e34b20f96e71106 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83a5ba77fa5ab18aaab01ad2ac4088f4 = $(`<div id="html_83a5ba77fa5ab18aaab01ad2ac4088f4" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Saint Louis Art Museum, Missouri.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_f9880189a3d683536e34b20f96e71106.setContent(html_83a5ba77fa5ab18aaab01ad2ac4088f4);
+            
+        
+
+        marker_ffd879676ea9da914de553189653b53d.bindPopup(popup_f9880189a3d683536e34b20f96e71106)
+        ;
+
+        
+    
+    
+            var marker_c8dee21aa0165e45d61877682af19195 = L.marker(
+                [41.76346225, -72.67290114151979],
+                {}
+            ).addTo(feature_group_61b0e07353937f4233cda821f04e697d);
+        
+    
+            var icon_362be52f3c1f163fb7b2a9177433b674 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c8dee21aa0165e45d61877682af19195.setIcon(icon_362be52f3c1f163fb7b2a9177433b674);
+        
+    
+        var popup_1153f0429c1d4accdb00e46113a2a15a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0675d4efbd0d1e453ac97957e99e835e = $(`<div id="html_0675d4efbd0d1e453ac97957e99e835e" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Wadsworth Atheneum, Hartford, Connecticut.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_1153f0429c1d4accdb00e46113a2a15a.setContent(html_0675d4efbd0d1e453ac97957e99e835e);
+            
+        
+
+        marker_c8dee21aa0165e45d61877682af19195.bindPopup(popup_1153f0429c1d4accdb00e46113a2a15a)
+        ;
+
+        
+    
+    
+            var marker_6fdccb7d62fd5bab7c51665faf76476f = L.marker(
+                [34.0591533, -118.4436421],
+                {}
+            ).addTo(feature_group_61b0e07353937f4233cda821f04e697d);
+        
+    
+            var icon_7b64e4337aeb2f6c4d8a0b9e4bf1e7dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_6fdccb7d62fd5bab7c51665faf76476f.setIcon(icon_7b64e4337aeb2f6c4d8a0b9e4bf1e7dd);
+        
+    
+        var popup_2a527fb6b28777271031ac9e9be1351f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29a8b15f30508a4cc90d1c424e5dbf23 = $(`<div id="html_29a8b15f30508a4cc90d1c424e5dbf23" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Hammer Museum, Los Angeles.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_2a527fb6b28777271031ac9e9be1351f.setContent(html_29a8b15f30508a4cc90d1c424e5dbf23);
+            
+        
+
+        marker_6fdccb7d62fd5bab7c51665faf76476f.bindPopup(popup_2a527fb6b28777271031ac9e9be1351f)
+        ;
+
+        
+    
+    
+            var marker_7516fac48c5344bdff7ad61d0b93cd14 = L.marker(
+                [26.7006521, -80.0531238],
+                {}
+            ).addTo(feature_group_61b0e07353937f4233cda821f04e697d);
+        
+    
+            var icon_6fe8d48811bb08914dd2dd1f587092be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_7516fac48c5344bdff7ad61d0b93cd14.setIcon(icon_6fe8d48811bb08914dd2dd1f587092be);
+        
+    
+        var popup_9c06d540d840fd2388b29454686f60cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d2efc69ce49fd335a2b7beceda16620 = $(`<div id="html_8d2efc69ce49fd335a2b7beceda16620" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Norton Museum of Art, West Palm Beach, Florida.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_9c06d540d840fd2388b29454686f60cd.setContent(html_8d2efc69ce49fd335a2b7beceda16620);
+            
+        
+
+        marker_7516fac48c5344bdff7ad61d0b93cd14.bindPopup(popup_9c06d540d840fd2388b29454686f60cd)
+        ;
+
+        
+    
+    
+            var marker_262b8e145a2bc6a2f701f1cc438b068b = L.marker(
+                [42.9321293, -78.87568390024248],
+                {}
+            ).addTo(feature_group_61b0e07353937f4233cda821f04e697d);
+        
+    
+            var icon_05f2778cfe77f1918dbaf12a6718d1f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_262b8e145a2bc6a2f701f1cc438b068b.setIcon(icon_05f2778cfe77f1918dbaf12a6718d1f6);
+        
+    
+        var popup_cfb1cb172d8c1be5200521fd83719331 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19c5225c85c5443df7f2b94d3b8f0b4b = $(`<div id="html_19c5225c85c5443df7f2b94d3b8f0b4b" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Albright-Knox Art Gallery, Buffalo, NY.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_cfb1cb172d8c1be5200521fd83719331.setContent(html_19c5225c85c5443df7f2b94d3b8f0b4b);
+            
+        
+
+        marker_262b8e145a2bc6a2f701f1cc438b068b.bindPopup(popup_cfb1cb172d8c1be5200521fd83719331)
+        ;
+
+        
+    
+    
+            var marker_37c004b4e5f0e85b124a172b26a2f6ee = L.marker(
+                [29.4853379, -98.457044125],
+                {}
+            ).addTo(feature_group_61b0e07353937f4233cda821f04e697d);
+        
+    
+            var icon_0f7a45ad743a12e97da2f6c8a005a38d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_37c004b4e5f0e85b124a172b26a2f6ee.setIcon(icon_0f7a45ad743a12e97da2f6c8a005a38d);
+        
+    
+        var popup_52fc2f8e12ece076608c38df58f223c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c0cb336adbf8463c4363a782f7358148 = $(`<div id="html_c0cb336adbf8463c4363a782f7358148" style="width: 100.0%; height: 100.0%;">             <iframe src="static/McNay Art Museum, San Antonio, Texas.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_52fc2f8e12ece076608c38df58f223c3.setContent(html_c0cb336adbf8463c4363a782f7358148);
+            
+        
+
+        marker_37c004b4e5f0e85b124a172b26a2f6ee.bindPopup(popup_52fc2f8e12ece076608c38df58f223c3)
+        ;
+
+        
+    
+    
+            var marker_ca41c412d10bae8938f0eb7d78f14708 = L.marker(
+                [41.5090438, -81.61173672190631],
+                {}
+            ).addTo(feature_group_61b0e07353937f4233cda821f04e697d);
+        
+    
+            var icon_eae75525881befbd39c2411f7244c4a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ca41c412d10bae8938f0eb7d78f14708.setIcon(icon_eae75525881befbd39c2411f7244c4a5);
+        
+    
+        var popup_73744cc7db41597dd108b96589181dad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ca055968fd14795950feda5690cabdb = $(`<div id="html_6ca055968fd14795950feda5690cabdb" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Cleveland Museum of Art.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_73744cc7db41597dd108b96589181dad.setContent(html_6ca055968fd14795950feda5690cabdb);
+            
+        
+
+        marker_ca41c412d10bae8938f0eb7d78f14708.bindPopup(popup_73744cc7db41597dd108b96589181dad)
+        ;
+
+        
+    
+    
+            var marker_121aa13477a97db66065db753ab9618b = L.marker(
+                [39.0449664, -94.58095819700402],
+                {}
+            ).addTo(feature_group_61b0e07353937f4233cda821f04e697d);
+        
+    
+            var icon_5d99b0142dc123a806a9e8593d6f6b94 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_121aa13477a97db66065db753ab9618b.setIcon(icon_5d99b0142dc123a806a9e8593d6f6b94);
+        
+    
+        var popup_70f08774e2f7321033688da3ccf1acb5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4717300970e4608f4428d2687260eed8 = $(`<div id="html_4717300970e4608f4428d2687260eed8" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Nelson-Atkins Museum of Art, Kansas City, Missouri.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_70f08774e2f7321033688da3ccf1acb5.setContent(html_4717300970e4608f4428d2687260eed8);
+            
+        
+
+        marker_121aa13477a97db66065db753ab9618b.bindPopup(popup_70f08774e2f7321033688da3ccf1acb5)
+        ;
+
+        
+    
+    
+            var marker_0eb1d1f0a3a59b99b1c2f7031144e201 = L.marker(
+                [39.9291412, -83.8125077374023],
+                {}
+            ).addTo(feature_group_61b0e07353937f4233cda821f04e697d);
+        
+    
+            var icon_96b44941a527aee038ee78edefc97668 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_0eb1d1f0a3a59b99b1c2f7031144e201.setIcon(icon_96b44941a527aee038ee78edefc97668);
+        
+    
+        var popup_47fb08ecb0f6dfb35f46bac3f091c8cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5143014d8f4cc88ea0bd06801a9c6061 = $(`<div id="html_5143014d8f4cc88ea0bd06801a9c6061" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Springfield Museum, OH.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_47fb08ecb0f6dfb35f46bac3f091c8cb.setContent(html_5143014d8f4cc88ea0bd06801a9c6061);
+            
+        
+
+        marker_0eb1d1f0a3a59b99b1c2f7031144e201.bindPopup(popup_47fb08ecb0f6dfb35f46bac3f091c8cb)
+        ;
+
+        
+    
+    
+            var marker_f561c2302019aa346a51b613eda8049b = L.marker(
+                [38.9117548, -77.0468732],
+                {}
+            ).addTo(feature_group_61b0e07353937f4233cda821f04e697d);
+        
+    
+            var icon_c09db154c6f1cfd36f76910c3df7469d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f561c2302019aa346a51b613eda8049b.setIcon(icon_c09db154c6f1cfd36f76910c3df7469d);
+        
+    
+        var popup_66f39c6006919b6248aeedf62eaad721 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_537344c2fac4ee9a59c3f7b495bc9a57 = $(`<div id="html_537344c2fac4ee9a59c3f7b495bc9a57" style="width: 100.0%; height: 100.0%;">             <iframe src="static/The Phillips Collection Museum.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_66f39c6006919b6248aeedf62eaad721.setContent(html_537344c2fac4ee9a59c3f7b495bc9a57);
+            
+        
+
+        marker_f561c2302019aa346a51b613eda8049b.bindPopup(popup_66f39c6006919b6248aeedf62eaad721)
+        ;
+
+        
+    
+    
+            var marker_def8c40567347913036437518e6d81d0 = L.marker(
+                [39.9605495, -75.17265809120113],
+                {}
+            ).addTo(feature_group_61b0e07353937f4233cda821f04e697d);
+        
+    
+            var icon_32ac4703d5bbf64ab1e783f98d1711de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_def8c40567347913036437518e6d81d0.setIcon(icon_32ac4703d5bbf64ab1e783f98d1711de);
+        
+    
+        var popup_a7590305a353fa59739d425a9a651921 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bcca81ed185683514e75b636ff5615c4 = $(`<div id="html_bcca81ed185683514e75b636ff5615c4" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Barnes Foundation, PA.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_a7590305a353fa59739d425a9a651921.setContent(html_bcca81ed185683514e75b636ff5615c4);
+            
+        
+
+        marker_def8c40567347913036437518e6d81d0.bindPopup(popup_a7590305a353fa59739d425a9a651921)
+        ;
+
+        
+    
+    
+            var marker_4672456c0b00fc53979844e3e63ac34e = L.marker(
+                [41.3084354, -72.93087953034963],
+                {}
+            ).addTo(feature_group_61b0e07353937f4233cda821f04e697d);
+        
+    
+            var icon_77d62d381915163b85189c2ef6e5c42d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_4672456c0b00fc53979844e3e63ac34e.setIcon(icon_77d62d381915163b85189c2ef6e5c42d);
+        
+    
+        var popup_90f399b9f0dddf10327063cd2d2afdb8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_044d6f75b56f9f9ed68f665d73be963d = $(`<div id="html_044d6f75b56f9f9ed68f665d73be963d" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Yale University Art Gallery, New Haven, Connecticut.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_90f399b9f0dddf10327063cd2d2afdb8.setContent(html_044d6f75b56f9f9ed68f665d73be963d);
+            
+        
+
+        marker_4672456c0b00fc53979844e3e63ac34e.bindPopup(popup_90f399b9f0dddf10327063cd2d2afdb8)
+        ;
+
+        
+    
+    
+            var marker_0bf019ba93151ae603e379e36f1c13a2 = L.marker(
+                [36.85636275, -76.29298032712623],
+                {}
+            ).addTo(feature_group_61b0e07353937f4233cda821f04e697d);
+        
+    
+            var icon_456f566673b9c856fe3d1fe1df6132ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_0bf019ba93151ae603e379e36f1c13a2.setIcon(icon_456f566673b9c856fe3d1fe1df6132ed);
+        
+    
+        var popup_721cffc96b63af57b9a7d5ca29b7e75c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a26fdc19757155dae4514e8c7107f730 = $(`<div id="html_a26fdc19757155dae4514e8c7107f730" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Chrysler Museum of Art, Norfolk, Virginia.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_721cffc96b63af57b9a7d5ca29b7e75c.setContent(html_a26fdc19757155dae4514e8c7107f730);
+            
+        
+
+        marker_0bf019ba93151ae603e379e36f1c13a2.bindPopup(popup_721cffc96b63af57b9a7d5ca29b7e75c)
+        ;
+
+        
+    
+    
+            var marker_59f3ae4bfaac0ee205f6f75ca3c51a67 = L.marker(
+                [40.7794396, -73.96338248033601],
+                {}
+            ).addTo(feature_group_61b0e07353937f4233cda821f04e697d);
+        
+    
+            var icon_9d11f004849ca772d3f4c53d95fe7e3e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_59f3ae4bfaac0ee205f6f75ca3c51a67.setIcon(icon_9d11f004849ca772d3f4c53d95fe7e3e);
+        
+    
+        var popup_ccc9715ec025bc9290c8992d25e58b27 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ef4573502237220a74cc5e1c312cda6 = $(`<div id="html_0ef4573502237220a74cc5e1c312cda6" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Metropolitan Museum of Art, New York.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_ccc9715ec025bc9290c8992d25e58b27.setContent(html_0ef4573502237220a74cc5e1c312cda6);
+            
+        
+
+        marker_59f3ae4bfaac0ee205f6f75ca3c51a67.bindPopup(popup_ccc9715ec025bc9290c8992d25e58b27)
+        ;
+
+        
+    
+    
+            var marker_43efc3ebd955f2539044e93dfb738d0e = L.marker(
+                [40.6709108, -73.96331573047141],
+                {}
+            ).addTo(feature_group_61b0e07353937f4233cda821f04e697d);
+        
+    
+            var icon_54b6ed85db8747a182d7b577a9743d3c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_43efc3ebd955f2539044e93dfb738d0e.setIcon(icon_54b6ed85db8747a182d7b577a9743d3c);
+        
+    
+        var popup_d780840a76957675c1746bfbe255252c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c20a79a7082301bc07aa03e393931ce4 = $(`<div id="html_c20a79a7082301bc07aa03e393931ce4" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Brooklyn Museum, New York City.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_d780840a76957675c1746bfbe255252c.setContent(html_c20a79a7082301bc07aa03e393931ce4);
+            
+        
+
+        marker_43efc3ebd955f2539044e93dfb738d0e.bindPopup(popup_d780840a76957675c1746bfbe255252c)
+        ;
+
+        
+    
+    
+            var marker_a39d3939d7cb287bc9bc9e845b0b2814 = L.marker(
+                [44.95859455, -93.27415255541163],
+                {}
+            ).addTo(feature_group_61b0e07353937f4233cda821f04e697d);
+        
+    
+            var icon_55c915eb2267c31288d56728e4b7f4c7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_a39d3939d7cb287bc9bc9e845b0b2814.setIcon(icon_55c915eb2267c31288d56728e4b7f4c7);
+        
+    
+        var popup_c6fe955bc42479db63019051fd9fe4df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25fda3744ed86d9ecdc74e8d8f51fc48 = $(`<div id="html_25fda3744ed86d9ecdc74e8d8f51fc48" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Minneapolis Institute of Art.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_c6fe955bc42479db63019051fd9fe4df.setContent(html_25fda3744ed86d9ecdc74e8d8f51fc48);
+            
+        
+
+        marker_a39d3939d7cb287bc9bc9e845b0b2814.bindPopup(popup_c6fe955bc42479db63019051fd9fe4df)
+        ;
+
+        
+    
+    
+            var marker_e34974a9da86441bdafc1900ca671870 = L.marker(
+                [41.658457, -83.5595316482296],
+                {}
+            ).addTo(feature_group_61b0e07353937f4233cda821f04e697d);
+        
+    
+            var icon_05647d0dd87277d40f752b82e3ff5ce6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e34974a9da86441bdafc1900ca671870.setIcon(icon_05647d0dd87277d40f752b82e3ff5ce6);
+        
+    
+        var popup_208ca88d68b67bb7b5a5095b97290900 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45aaa8ca97b325ee308072d0c6ca9c7a = $(`<div id="html_45aaa8ca97b325ee308072d0c6ca9c7a" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Toledo Museum of Art, Ohio.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_208ca88d68b67bb7b5a5095b97290900.setContent(html_45aaa8ca97b325ee308072d0c6ca9c7a);
+            
+        
+
+        marker_e34974a9da86441bdafc1900ca671870.bindPopup(popup_208ca88d68b67bb7b5a5095b97290900)
+        ;
+
+        
+    
+    
+            var marker_f4cc7412229b66800faa616ed581e5aa = L.marker(
+                [40.7829932, -73.95892501810057],
+                {}
+            ).addTo(feature_group_61b0e07353937f4233cda821f04e697d);
+        
+    
+            var icon_e24b5e22e81cd53728f91c450a7bad5b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f4cc7412229b66800faa616ed581e5aa.setIcon(icon_e24b5e22e81cd53728f91c450a7bad5b);
+        
+    
+        var popup_5abb6c05136b8476152f7c32f0307715 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_177c623b21a2c66eb56dd78713b321bc = $(`<div id="html_177c623b21a2c66eb56dd78713b321bc" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Solomon R. Guggenheim Museum, New York.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_5abb6c05136b8476152f7c32f0307715.setContent(html_177c623b21a2c66eb56dd78713b321bc);
+            
+        
+
+        marker_f4cc7412229b66800faa616ed581e5aa.bindPopup(popup_5abb6c05136b8476152f7c32f0307715)
+        ;
+
+        
+    
+    
+            var marker_f3a515b28c601a4c739cbebd6ded1d3d = L.marker(
+                [39.3258182, -76.61972268150001],
+                {}
+            ).addTo(feature_group_61b0e07353937f4233cda821f04e697d);
+        
+    
+            var icon_76ab1201dd956a0cf0c7b8eb96199d44 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f3a515b28c601a4c739cbebd6ded1d3d.setIcon(icon_76ab1201dd956a0cf0c7b8eb96199d44);
+        
+    
+        var popup_05881272414a45fc5a4d13615ce28a94 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0bdb78d655b5b3ad3efa26e37462f88d = $(`<div id="html_0bdb78d655b5b3ad3efa26e37462f88d" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Baltimore Museum of Art, MD.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_05881272414a45fc5a4d13615ce28a94.setContent(html_0bdb78d655b5b3ad3efa26e37462f88d);
+            
+        
+
+        marker_f3a515b28c601a4c739cbebd6ded1d3d.bindPopup(popup_05881272414a45fc5a4d13615ce28a94)
+        ;
+
+        
+    
+    
+            var marker_22f6a09157f392ab313cf79e8425a0e1 = L.marker(
+                [34.0770168, -118.4740101],
+                {}
+            ).addTo(feature_group_61b0e07353937f4233cda821f04e697d);
+        
+    
+            var icon_cd9382282a2730dba37ff39f4fb049b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_22f6a09157f392ab313cf79e8425a0e1.setIcon(icon_cd9382282a2730dba37ff39f4fb049b3);
+        
+    
+        var popup_7730300faa92c7b673abf984aecd1ad0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ccc5a8fd86525f391bf3f677dca8a5da = $(`<div id="html_ccc5a8fd86525f391bf3f677dca8a5da" style="width: 100.0%; height: 100.0%;">             <iframe src="static/J. Paul Getty Museum, Los Angeles.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_7730300faa92c7b673abf984aecd1ad0.setContent(html_ccc5a8fd86525f391bf3f677dca8a5da);
+            
+        
+
+        marker_22f6a09157f392ab313cf79e8425a0e1.bindPopup(popup_7730300faa92c7b673abf984aecd1ad0)
+        ;
+
+        
+    
+    
+            var marker_433fbaa04ddd7cb99ee299a4403dc676 = L.marker(
+                [21.30419305, -157.8480799728546],
+                {}
+            ).addTo(feature_group_61b0e07353937f4233cda821f04e697d);
+        
+    
+            var icon_f29d762b6ee7099fd36517c1f8a5f627 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_433fbaa04ddd7cb99ee299a4403dc676.setIcon(icon_f29d762b6ee7099fd36517c1f8a5f627);
+        
+    
+        var popup_ae8b3f43d6e87cc8734190183d23086d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8621fdfabf8b04801d214fc84eccab27 = $(`<div id="html_8621fdfabf8b04801d214fc84eccab27" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Honolulu Museum of Art.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_ae8b3f43d6e87cc8734190183d23086d.setContent(html_8621fdfabf8b04801d214fc84eccab27);
+            
+        
+
+        marker_433fbaa04ddd7cb99ee299a4403dc676.bindPopup(popup_ae8b3f43d6e87cc8734190183d23086d)
+        ;
+
+        
+    
+    
+            var marker_60ef7f14ca74e69454c1418ac615de41 = L.marker(
+                [39.11397405, -84.49724429223966],
+                {}
+            ).addTo(feature_group_61b0e07353937f4233cda821f04e697d);
+        
+    
+            var icon_6044d71f599eb2374aa3d87a5ae329ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_60ef7f14ca74e69454c1418ac615de41.setIcon(icon_6044d71f599eb2374aa3d87a5ae329ff);
+        
+    
+        var popup_de63b75b3b5209827e0c467513413730 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c64c04ffa5f6d458a84e3a052f04762 = $(`<div id="html_7c64c04ffa5f6d458a84e3a052f04762" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Cincinnati Art Museum.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_de63b75b3b5209827e0c467513413730.setContent(html_7c64c04ffa5f6d458a84e3a052f04762);
+            
+        
+
+        marker_60ef7f14ca74e69454c1418ac615de41.bindPopup(popup_de63b75b3b5209827e0c467513413730)
+        ;
+
+        
+    
+    
+            var marker_ecac9265ad1d3b8e654ad48544ccae65 = L.marker(
+                [29.98643375, -90.0934342643155],
+                {}
+            ).addTo(feature_group_61b0e07353937f4233cda821f04e697d);
+        
+    
+            var icon_c75849d3757cec9b4b746c2da4f9c0b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ecac9265ad1d3b8e654ad48544ccae65.setIcon(icon_c75849d3757cec9b4b746c2da4f9c0b4);
+        
+    
+        var popup_ad8c55dc8664a33183e42388eee992e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_02bd74b63b5fdebe3d38ad207d9bcc26 = $(`<div id="html_02bd74b63b5fdebe3d38ad207d9bcc26" style="width: 100.0%; height: 100.0%;">             <iframe src="static/New Orleans Museum of Art.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_ad8c55dc8664a33183e42388eee992e8.setContent(html_02bd74b63b5fdebe3d38ad207d9bcc26);
+            
+        
+
+        marker_ecac9265ad1d3b8e654ad48544ccae65.bindPopup(popup_ad8c55dc8664a33183e42388eee992e8)
+        ;
+
+        
+    
+    
+            var marker_1458ef1488886d0981d8a4c0a83aa2bc = L.marker(
+                [42.7049629, -73.21688606858808],
+                {}
+            ).addTo(feature_group_61b0e07353937f4233cda821f04e697d);
+        
+    
+            var icon_2074361f3d6c7488873668110d204cfb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1458ef1488886d0981d8a4c0a83aa2bc.setIcon(icon_2074361f3d6c7488873668110d204cfb);
+        
+    
+        var popup_9d6de4aa6313686e3fde606fbbb05332 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a11c3090a5e381c837256a5c0c48c01 = $(`<div id="html_4a11c3090a5e381c837256a5c0c48c01" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Clark Art Institute, MA.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_9d6de4aa6313686e3fde606fbbb05332.setContent(html_4a11c3090a5e381c837256a5c0c48c01);
+            
+        
+
+        marker_1458ef1488886d0981d8a4c0a83aa2bc.bindPopup(popup_9d6de4aa6313686e3fde606fbbb05332)
+        ;
+
+        
+    
+    
+            var marker_23301f5999f4fe20f9d5c9ed36b8e573 = L.marker(
+                [34.1463727, -118.1592590154642],
+                {}
+            ).addTo(feature_group_61b0e07353937f4233cda821f04e697d);
+        
+    
+            var icon_c9c2f83d6969d33769e1101a81ff933a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_23301f5999f4fe20f9d5c9ed36b8e573.setIcon(icon_c9c2f83d6969d33769e1101a81ff933a);
+        
+    
+        var popup_d4b238b9984542c6ec7fdaae7690671c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47639eca1ab77f7952a0fb34203133c7 = $(`<div id="html_47639eca1ab77f7952a0fb34203133c7" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Norton Simon Museum, Pasadena, California.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_d4b238b9984542c6ec7fdaae7690671c.setContent(html_47639eca1ab77f7952a0fb34203133c7);
+            
+        
+
+        marker_23301f5999f4fe20f9d5c9ed36b8e573.bindPopup(popup_d4b238b9984542c6ec7fdaae7690671c)
+        ;
+
+        
+    
+    
+            var marker_6fb2f20b31664198051a50524316678f = L.marker(
+                [40.44358905, -79.94897555054652],
+                {}
+            ).addTo(feature_group_61b0e07353937f4233cda821f04e697d);
+        
+    
+            var icon_807dc4463636fb615703b88988bb0e60 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "museum", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_6fb2f20b31664198051a50524316678f.setIcon(icon_807dc4463636fb615703b88988bb0e60);
+        
+    
+        var popup_b623bcf8136e2c4ffb1c22bae52b9e15 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a814509ae8a1a9fe893a16d2c2013598 = $(`<div id="html_a814509ae8a1a9fe893a16d2c2013598" style="width: 100.0%; height: 100.0%;">             <iframe src="static/Carnegie Museum of Art, Pittsburg.html" width="500" height="300" frameborder="0">             </div>`)[0];
+                popup_b623bcf8136e2c4ffb1c22bae52b9e15.setContent(html_a814509ae8a1a9fe893a16d2c2013598);
+            
+        
+
+        marker_6fb2f20b31664198051a50524316678f.bindPopup(popup_b623bcf8136e2c4ffb1c22bae52b9e15)
+        ;
+
+        
+    
+    
+            var layer_control_c82f969ba0a29777eb8aa4bf22d71226 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_ab3f60b9149ad130900d6617de5b022b,
+                },
+                overlays :  {
+                    "Argentina (1)" : feature_group_96ced4297df412c31166aba183edc9e2,
+                    "Belgium (2)" : feature_group_24500de6e26a2c7b982ae4d6438bfa5c,
+                    "Brazil (1)" : feature_group_c07688132b628b9490dc2fe1286df28c,
+                    "Canada (1)" : feature_group_dc95a2b1cc83ff818d641e82937db3d8,
+                    "Czechia (1)" : feature_group_d4ea2a5a81fa0ce93b7c020c2f5ac947,
+                    "Denmark (2)" : feature_group_ea31bd7c190a0023c2d47b14958d4118,
+                    "Egypt (1)" : feature_group_80f276fcace30fccce3ace2b59db28a0,
+                    "Finland (2)" : feature_group_6b90674d98140edae04a025fbdbef6ce,
+                    "France (13)" : feature_group_d367019c79717801ad782f500cdaecb5,
+                    "Germany (9)" : feature_group_5ca22be44c5ea09aa8c952919cd9b55f,
+                    "Greece (1)" : feature_group_24a217498a49ee248e2f9e611f0b7896,
+                    "Hungary (1)" : feature_group_09a9d4b8e50a480af8fc4d75a16c2f07,
+                    "Iran (1)" : feature_group_372b8881423c22c5dffafb6ae202d51f,
+                    "Israel (1)" : feature_group_9c59e90b014601de5e989aaf8a901604,
+                    "Italy (1)" : feature_group_755cbb72f489ed81aa517db5405f021d,
+                    "Japan (7)" : feature_group_44fefb03ae01323a6366ccca1d7e3ecf,
+                    "Netherlands (4)" : feature_group_ffb1bc2d476c5f109e77487a7ff36900,
+                    "Norway (1)" : feature_group_701bd985788da3d02876f73a6a18aad5,
+                    "Russia (2)" : feature_group_3260572e0ad601c3d22d8543fa426654,
+                    "Serbia (1)" : feature_group_e19fda590dcb381b8056ef965da76061,
+                    "Spain (2)" : feature_group_5746ed8f0f12c1d6d05ce64c1a7392e2,
+                    "Sweden (2)" : feature_group_025bbd015301623276d6b9d3f47f12da,
+                    "Switzerland (8)" : feature_group_aecb3be95d280b3bd4b9d9d381692f37,
+                    "United Kingdom (10)" : feature_group_4b470901c78c29354f11aced97fe143b,
+                    "United States (43)" : feature_group_61b0e07353937f4233cda821f04e697d,
+                },
+            };
+            L.control.layers(
+                layer_control_c82f969ba0a29777eb8aa4bf22d71226.base_layers,
+                layer_control_c82f969ba0a29777eb8aa4bf22d71226.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_cf1ba609c01b94f477f0e8bdb9ec631d);
+            feature_group_96ced4297df412c31166aba183edc9e2.remove();
+            feature_group_24500de6e26a2c7b982ae4d6438bfa5c.remove();
+            feature_group_c07688132b628b9490dc2fe1286df28c.remove();
+            feature_group_dc95a2b1cc83ff818d641e82937db3d8.remove();
+            feature_group_d4ea2a5a81fa0ce93b7c020c2f5ac947.remove();
+            feature_group_ea31bd7c190a0023c2d47b14958d4118.remove();
+            feature_group_80f276fcace30fccce3ace2b59db28a0.remove();
+            feature_group_6b90674d98140edae04a025fbdbef6ce.remove();
+            feature_group_d367019c79717801ad782f500cdaecb5.remove();
+            feature_group_5ca22be44c5ea09aa8c952919cd9b55f.remove();
+            feature_group_24a217498a49ee248e2f9e611f0b7896.remove();
+            feature_group_09a9d4b8e50a480af8fc4d75a16c2f07.remove();
+            feature_group_372b8881423c22c5dffafb6ae202d51f.remove();
+            feature_group_9c59e90b014601de5e989aaf8a901604.remove();
+            feature_group_755cbb72f489ed81aa517db5405f021d.remove();
+            feature_group_44fefb03ae01323a6366ccca1d7e3ecf.remove();
+            feature_group_ffb1bc2d476c5f109e77487a7ff36900.remove();
+            feature_group_701bd985788da3d02876f73a6a18aad5.remove();
+            feature_group_3260572e0ad601c3d22d8543fa426654.remove();
+            feature_group_e19fda590dcb381b8056ef965da76061.remove();
+            feature_group_5746ed8f0f12c1d6d05ce64c1a7392e2.remove();
+            feature_group_025bbd015301623276d6b9d3f47f12da.remove();
+            feature_group_aecb3be95d280b3bd4b9d9d381692f37.remove();
+            feature_group_4b470901c78c29354f11aced97fe143b.remove();
+            feature_group_61b0e07353937f4233cda821f04e697d.remove();
+        
+</script>
